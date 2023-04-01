@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
+import "aviner\Avenir-Phoenix\src\App.css";
 import Clock from "../../components/Clock";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
   const [timerDays, setTimerDays] = useState();
@@ -41,17 +43,29 @@ function Home() {
 
   useEffect(() => {
     startTimer();
-  });
+  }, []);
 
   return (
-    <div className="App">
-      <Clock
-        timerDays={timerDays}
-        timerHours={timerHours}
-        timerMinutes={timerMinutes}
-        timerSeconds={timerSeconds}
-      />
-    </div>
+    // <div className="d-flex" style={{ height: "100vh", backgroundColor: "black",width:"" }}>
+      <div
+        className="d-flex flex-column justify-content-center align-items-lg-start align-items-center p-5 " 
+        style={{ height: "100vh", backgroundColor: "black",width:"" }} 
+      >
+        <div>
+          <p className="fs-1">AVENIR</p>
+        </div>
+        <div>
+          <p className="fs-2">Tag Line</p>
+        </div>
+        <Clock
+          timerDays={timerDays}
+          timerHours={timerHours}
+          timerMinutes={timerMinutes}
+          timerSeconds={timerSeconds}
+        />
+      </div>
+      
+    // </div>
   );
 }
 
