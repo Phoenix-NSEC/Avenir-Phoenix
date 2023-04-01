@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        gugi: ['Gugi'],
+        audiowide: ['Audiowide'],
+        chakra: ['Chakra Petch'],
+        orbitron: ['Orbitron']
+      }
+    },
   },
   plugins: [],
 }
