@@ -4,7 +4,8 @@ const ZigboxOne = (props) => {
 
     return (
         <>
-            <style>
+           
+           <style>
                 {`
                     .main{
                         inset: 0;
@@ -33,8 +34,8 @@ const ZigboxOne = (props) => {
                     .main::after{
                         content: '';
                         position: absolute;
-                        inset: 2px;
-                        background: black;
+                        inset: 3px;
+                        background: #373E40;
                     }
                     .box::before{
                         content: '';
@@ -67,7 +68,7 @@ const ZigboxOne = (props) => {
                         display: block;
                     }
                 `}
-            </style>
+            </style>
             <div className="card flex items-center mb-4">
                 <div className='container flex items-center main ease-in-out duration-300 relative w-[380px] h-[180px] 
                     hover:w-[500px] hover:h-[220px]'>
