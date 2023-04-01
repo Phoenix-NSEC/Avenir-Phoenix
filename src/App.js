@@ -11,12 +11,12 @@ function App() {
   return (
     <div>
       <Routes>
-        {/* <Route path='/' element={<Home/>}/> */}
-        <Route path='/' element={<Events/>}/>
-        {/* <Route path='/about' element={<Aboutus/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/event' element={<Events/>}/>
+        <Route path='/about' element={<Aboutus/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/patners' element={<Patners/>}/>
-        <Route path='/teams' element={<Team/>}/> */}
+        <Route path='/teams' element={<Team/>}/>
       </Routes>
     </div>
   );
