@@ -33,15 +33,15 @@ const ZigboxOne = (props) => {
                     .main::after{
                         content: '';
                         position: absolute;
-                        inset: 2px;
-                        background: black;
+                        inset: 3px;
+                        background: #373E40;
                     }
                     .box::before{
                         content: '';
                         position: absolute;
                         top: 50%;
                         left: 50%;
-                        width: 900px;
+                        width: 200px;
                         height: 180px;
                         background: linear-gradient(transparent, #FF3C7B, #FF3C7B, transparent);
                         animation: animate2 2s linear infinite;
@@ -59,28 +59,38 @@ const ZigboxOne = (props) => {
                         position: absolute;
                         inset: 3px;
                         background: black;
+                        z-index:1;
                     }
-                    .card:hover .content .details{
+                    .box i{
+                        z-index: 5;
+                    }
+                    .card .content:hover .details{
                         top: 5%;
                     }
-                    .card:hover .content p{
+                    .card .content:hover p{
                         display: block;
+                    }
+                    @media screen and (max-width: 480px){
+                        .card .content:hover p{
+                            display: block;
+                        }
                     }
                 `}
             </style>
-            <div className="card flex items-center mb-4">
-                <div className='container flex items-center main ease-in-out duration-300 relative w-[380px] h-[180px] 
-                    hover:w-[500px] hover:h-[220px]'>
-                    <div className="content">
-                        <div className="font-audiowide ease-in-out duration-300 details absolute z-20 ml-5 w-[200px] text-white text-2xl">
+            <div className="card flex items-center md:mb-8 md:translate-x-[46px]">
+                <div className='container flex items-center main ease-in-out duration-300 relative md:w-[380px] w-[250px] md:h-[180px] h-[338px] 
+                    md:hover:w-[500px] md:hover:h-[220px]'>
+                    <div className="content md:static md:bottom-0 relative bottom-20">
+                        <div className="font-audiowide ease-in-out duration-300 details absolute md:bottom-[19px] bottom-[-239px] z-20 ml-5 md:w-[200px] w-[150px] text-white md:text-2xl text-lg">
                             {props.title}
-                            <div className="w-[400px]">
-                                <p className='font-chakra text-sm hidden ease-in-out duration-300 mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, corrupti architecto ipsam aut doloribus soluta quis optio officiis error aperiam, dolsse ad alias explicabo repudiandae reiciendis voluptatum ex. Possimus, eos harum veniam quos nihil nulla consequuntur, iste alias facere aspernatur temporibus distinctio.</p></div>
+                            <div className="md:w-[400px] w-[200px]">
+                                <p className='font-chakra text-sm md:hidden ease-in-out duration-300 mt-3'>{props.desc}</p></div>
                         </div>
                     </div>
                 </div>
-                <div className="box relative ease-in-out duration-300 right-20 w-[130px] h-[130px] z-10 overflow-hidden"></div>
+                <div className="box md:block relative hidden ease-in-out duration-300 md:right-20 md:bottom-[0px] right-[60px] bottom-[170px]  md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-5xl"><i class={`${props.icon} relative top-[38px]`}></i></div>
             </div>
+            <div className="box md:hidden relative bottom-[375px] left-[110px] ease-in-out duration-300 md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-4xl"><i class={`${props.icon} relative top-[19px]`}></i></div>
         </>
     )
 }
