@@ -9,7 +9,7 @@ import Patners from './pages/Patners/Patners';
 
 function App() {
   return (
-    <div>
+    <>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/events' element={<Events/>}/>
@@ -18,7 +18,7 @@ function App() {
         <Route path='/patners' element={<Patners/>}/>
         <Route path='/teams' element={<Team/>}/>
       </Routes>
-    </div>
+    </>
   );
 }
 
