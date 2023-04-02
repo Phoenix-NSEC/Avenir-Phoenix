@@ -1,5 +1,6 @@
 import React from 'react'
 import './Team.css';
+import '../../Assets/Css/navbarGlitch.css';
 import Card from '../../components/Card';
 import team from '../../Data/teamdata';
 

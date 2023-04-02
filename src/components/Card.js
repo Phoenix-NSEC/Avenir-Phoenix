@@ -14,9 +14,9 @@ function Card(props) {
                         <p className="member-name">{props.name}</p>
                         <p className="member-designation">{props.designation}</p>
                         <div className="socials">
-                            <a href={props.facebook} target="_blank" rel="noopener noreferrer" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x"/></a>
-                            <a href={props.instagram} target="_blank" rel="noopener noreferrer" className="instagram"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
-                            <a href={props.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
+                            <a href={props.facebook} target="_blank" rel="noopener noreferrer" className="facebook glitch-effect"><FontAwesomeIcon icon={faFacebook} size="2x"/></a>
+                            <a href={props.instagram} target="_blank" rel="noopener noreferrer" className="instagram glitch-effect"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
+                            <a href={props.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin glitch-effect"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
                         </div>
                     </div>
                 </div>
