@@ -6,10 +6,12 @@ import Aboutus from './pages/About/Aboutus';
 import Contact from './pages/Contact/Contact';
 import Team from './pages/Team/Team';
 import Patners from './pages/Patners/Patners';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/events' element={<Events/>}/>

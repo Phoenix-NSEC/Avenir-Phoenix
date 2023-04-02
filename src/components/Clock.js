@@ -2,35 +2,33 @@ import React from "react";
 
 const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
   return (
-    <div>
-      <div className="d-flex justify-content-center align-items-center">
-        <div className="d-flex p-3">
-          <div className="d-flex justify-content-center flex-column">
-            <p className="fs-1 App-link">{timerDays}</p>
-            <div className="text-info">Days</div>
-          </div>
-          <div className="fs-1 px-md-3 px-sm-1 clock-divider">:</div>
+    <div className="flex justify-center items-center">
+      <div className="flex p-3">
+        <div className="flex justify-center flex-col">
+          <p className="text-[30px] md:text-[60px] text-center font-chakra text-teal-500">{timerDays}</p>
+          <div className=" text-sky-600 text-[10px] md:text-[20px] font-orbitron">Days</div>
         </div>
-        <div className="d-flex p-3 ">
-          <div className="d-flex justify-content-center  flex-column">
-            <p className="fs-1 App-link">{timerHours}</p>
-            <div className="text-info">Hours</div>
-          </div>
-          <div className="fs-1 px-md-3 px-sm-1 clock-divider">:</div>
+        <div className="text-[30px] md:text-[50px] font-chakra md:pl-3 pl-1 text-gray-400">:</div>
+      </div>
+      <div className="flex p-3 ">
+        <div className="flex justify-center flex-col">
+          <p className="text-[30px] md:text-[60px] text-center font-chakra text-teal-500">{timerHours}</p>
+          <div className=" text-sky-600 text-[10px] md:text-[20px] font-orbitron">Hours</div>
         </div>
-        <div className="d-flex p-3 ">
-          <div className="d-flex justify-content-center  flex-column">
-            <p className="fs-1 App-link">{timerMinutes}</p>
-            <div className="text-info">Minutes</div>
-          </div>
-          <div className="fs-1 px-md-3 px-sm-1 clock-divider">:</div>
+        <div className="text-[30px] md:text-[50px] font-chakra md:pl-3 pl-1 text-gray-400">:</div>
+      </div>
+      <div className="flex p-3 ">
+        <div className="flex justify-center flex-col">
+          <p className="text-[30px] md:text-[60px] font-chakra text-center text-teal-500">{timerMinutes}</p>
+          <div className=" text-sky-600 text-[10px] md:text-[20px] font-orbitron">Minutes</div>
         </div>
-        <div className="d-flex flex-column p-3">
-          <div className="d-flex fs-1 justify-content-center ">
-            <p className="App-link">{timerSeconds}</p>
-          </div>
-          <div className="text-info">Seconds</div>
+        <div className="text-[30px] md:text-[50px] font-chakra md:pl-3 pl-1 text-gray-400">:</div>
+      </div>
+      <div className="flex flex-col p-3">
+        <div className="flex justify-center ">
+          <p className="text-[30px] md:text-[60px] font-chakra text-teal-500">{timerSeconds}</p>
         </div>
+        <div className="text-sky-600 text-[10px] md:text-[20px] font-orbitron">Seconds</div>
       </div>
     </div>
   );
