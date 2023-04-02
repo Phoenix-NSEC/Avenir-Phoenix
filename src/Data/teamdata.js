@@ -1,11 +1,11 @@
 const team=[
     {
         dp: "https://picsum.photos/200",
-        name: "Rudraneel Bhattacharya",
+        name: "Dummy User",
         designation: "Head",
-        facebook: "https://www.github.com",
-        instagram: "https://www.github.com",
-        linkedin: "https://www.github.com"
+        facebook: "",
+        instagram: "",
+        linkedin: ""
     },
     {
         dp: "https://picsum.photos/200",
