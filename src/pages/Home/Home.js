@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Clock from "../../components/Clock";
 import { FiFacebook, FiInstagram, FiPhone } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
+import bgGif from '../../Assets/gifs/bgGif.gif'
 import "../../Assets/Css/navbarGlitch.css"
 import "./Home.css";
 
@@ -50,9 +51,9 @@ function Home() {
   }, []);
 
   return (
-    <div className={`flex flex-col md:min-h-screen sub-body`}>
+    <div className={`flex flex-col md:min-h-screen sub-body`} style={{backgroundImage: `url(${bgGif})`,backgroundSize: "cover"}}>
       <div className="kunal"></div>
-      <div className="flex relative md:justify-around md:items-end items-center justify-center md:h-[70vh] h-[100vh] max-w-full md:w-50 z-10">
+      <div className="flex relative md:justify-around md:items-end items-center justify-center md:h-[75vh] h-[100vh] max-w-full md:w-50 z-10">
         <div className="flex flex-col justify-evenly lg:items-start items-center ">
           <div className="pb-1 md:pl-5">
             <h1 className="glitch md:text-[150px] text-[70px] font-gugi text-white z-10">
@@ -63,8 +64,7 @@ function Home() {
           </div>
           <div className="pb-5 md:pl-5 relative bottom-2">
             <p className="md:text-[20px] text-[15px] text-center text-blue-500 font-audiowide">
-              Lorem Picsum · The Lorem Ipsum for photos. · Easy to use, stylish
-              placeholders{" "}
+              Let's Go Beyond
             </p>
           </div>
           {!completed ? (
@@ -79,7 +79,7 @@ function Home() {
               {days < 5 ? `Day ${days} is going on` : "Comming soon"}
             </p>
           )}
-          <div className="flex mt-5 relative top-[222px] justify-around w-[70%] lg:hidden text-white">
+          <div className="flex mt-5 relative top-[189px] justify-around w-[70%] lg:hidden text-white">
             <a href="www.google.com" target="_blank">
               <FiInstagram
                 size={"30px"}
@@ -106,14 +106,14 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="text-white hidden lg:block">
+        <div className="text-white hidden lg:block lg:mt-4">
           <img
-            className="h-[300px] w-[300px] lg:h-[500px]"
+            className="h-[200px] w-[300px] lg:h-[500px]"
             src="https://picsum.photos/200/300"
           />
         </div>
       </div>
-      <div className="hidden lg:flex  lg:flex-col justify-around items-start ml-[40px] mb-6 text-white h-[25vh] z-10">
+      <div className="hidden lg:flex lg:flex-col justify-around items-start ml-[40px] text-white h-[25vh] z-10">
         <a href="www.google.com" target="_blank" className="glitch-effect">
           <FiInstagram
             size={"30px"}

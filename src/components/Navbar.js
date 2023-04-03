@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
 import "../Assets/Css/navbarGlitch.css";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
-import bgGif from "../Assets/gifs/bgGif.gif"
 
 function Navbar() {
   const [navState, setNaState] = useState(false);
+  const [path, setPath] = useState("/");
   const navigate = useNavigate();
   const handleNav = () => {
     setNaState(!navState);
@@ -14,10 +14,13 @@ function Navbar() {
 
   useEffect(() => {
     setNaState(false);
+    setPath(location.pathname);
   }, [location]);
 
   return (
-    <div className="navbar flex z-50 w-full text fixed top-0 left-0" style={{backgroundImage: `url(${bgGif})`}}>
+    <div
+      className="navbar flex z-50 w-full text fixed top-0 left-0"  
+    >
       <div
         className="absolute md:hidden top-50 left-[2.75px] z-[1000]"
         onClick={handleNav}
@@ -38,19 +41,59 @@ function Navbar() {
       >
         <ul className="flex flex-col justify-center items-center md:flex-row gap-10 font-bold py-3 text-[1.4rem] md:text-[.5rem] lg:text-[.9rem] text-white font-orbitron">
           <NavLink to="/">
-            <li className="text-[20px] text-center glitch-effect mx-6">Home</li>
+            <li
+              className={
+                path === "/"
+                  ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
+                  : "text-[20px] text-center glitch-effect mx-6"
+              }
+            >
+              Home
+            </li>
           </NavLink>
           <NavLink to="/events">
-            <li className="text-[20px] text-center glitch-effect mx-6">Events</li>
+            <li
+              className={
+                path === "/events"
+                  ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
+                  : "text-[20px] text-center glitch-effect mx-6"
+              }
+            >
+              Events
+            </li>
           </NavLink>
           <NavLink to="about">
-            <li className="text-[20px] text-center glitch-effect mx-6">About us</li>
+            <li
+              className={
+                path === "/about"
+                  ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
+                  : "text-[20px] text-center glitch-effect mx-6"
+              }
+            >
+              About us
+            </li>
           </NavLink>
           <NavLink to="patners">
-            <li className="text-[20px] text-center glitch-effect mx-6">Partners</li>
+            <li
+              className={
+                path === "/patners"
+                  ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
+                  : "text-[20px] text-center glitch-effect mx-6"
+              }
+            >
+              Partners
+            </li>
           </NavLink>
-          <NavLink to="team">
-            <li className="text-[20px] text-center glitch-effect mx-6">Team</li>
+          <NavLink to="teams">
+            <li
+              className={
+                path === "/teams"
+                  ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
+                  : "text-[20px] text-center glitch-effect mx-6"
+              }
+            >
+              Team
+            </li>
           </NavLink>
         </ul>
       </div>
