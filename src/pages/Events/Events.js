@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ZigboxOne from '../../components/ZigboxOne'
+import bgImage from '../../Assets/Images/bg_event.jpg' 
 import './Events.css'
 import './glitch.css'
 import { Cybernix, Robonix, Eloquense, Nirmaan, specialEventsNormal, specialEventsGaming, Illustro, funEvents } from '../../Data/EventData';
@@ -20,7 +21,7 @@ function Events() {
   return (
     <div className='container'>
       <div class="overlay"></div>
-      <div className='eventPage py-10 flex flex-col justify-center item-center'>
+      <div className='eventPage py-[80px] flex flex-col justify-center item-center'>
         <h1 className='py-6 text-center font-orbitron text-4xl md:text-5xl text-white'>EVENTS</h1>
         <div className="btnGrp1 justify-center items-center mt-[30px] mx-auto grid md:grid-cols-4 grid-cols-2 md:gap-x-[100px] gap-x-[20px] md:gap-y-[25px] gap-y-[5px]">
           <button class={color === "Cybernix" ? "glitchex" : "cybr-btn"} onClick={() => { handleData(Cybernix) }}>

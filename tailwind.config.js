@@ -3,9 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        gugi: ['Gugi'],
-        audiowide: ['Audiowide'],
+      fontFamily:{
+        gugi:['Gugi'],
+        audiowide:['Audiowide'],
         chakra: ['Chakra Petch'],
         orbitron: ['Orbitron']
       }
