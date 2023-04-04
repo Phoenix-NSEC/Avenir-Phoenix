@@ -31,7 +31,7 @@ body
 
 .card-container-teams
 {
-    margin-top: 15%;
+    margin-top: 11%;
 }
 .card-teams
 {
@@ -41,11 +41,12 @@ body
     background: #000;
     transition: var(--transition-time);
     display: inline-block;
+    margin: 13% auto;
 }
 .card-teams:hover
 {
     height: calc(var(--card-height) + 100px);
-    margin-top: 5%;
+    /* margin: 15% auto; */
     animation: image-glitch 0.2s linear infinite;
 }
 
@@ -180,7 +181,7 @@ body
 }
 .socials-teams
 {
-    margin-top: 7%;
+    margin-top: 9%;
 }
 .facebook-teams
 {
@@ -197,11 +198,41 @@ body
 }
 
 /* Removed hover effects in mobile view */
-@media (hover: none) and (max-width: 1024px)
+@media (hover: none) and (max-width: 768px)
 {
     .card-teams
     {
-        width: 90vw;
+        /* width: 85vw; */
+        width: 80vw;
+        /* height: calc(var(--card-height) + 85px); */
+        height: calc(var(--card-height) + 50px);
+        margin-top: 40%;
+    }
+    .img-box-teams
+    {
+        /* width: calc(var(--card-height) / 0.8);
+        height: calc(var(--card-height) / 0.8); */
+        width: calc(var(--card-height) / 1);
+        height: calc(var(--card-height) / 1);
+    }
+    .content-teams
+    {
+    /* top: 25%; */
+    top: 30%;
+    height: 70%;
+    padding-top: 0;
+    }
+    .socials-teams
+    {
+        margin-top: 4%;
+    }
+}
+
+@media (hover:none) and (min-width:769px) and (max-width: 1023px)
+{
+    .card-teams
+    {
+        width: 40vw;
         height: calc(var(--card-height) + 100px);
         margin-top: 35%;
     }
