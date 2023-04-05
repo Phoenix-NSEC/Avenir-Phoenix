@@ -5,7 +5,7 @@
   },
   "hosting": {
     "site": "avenir",
-    "public": "build",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
