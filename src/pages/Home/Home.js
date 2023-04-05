@@ -77,44 +77,16 @@ function Home() {
             />
           ) : (
             <p className=" text-purple-600 lg:text-[40px] lg:pl-4 text-[25px] text-center font-audiowide">
-              {days < 5 ? `Day ${days} is going on` : "Comming soon"}
+              {days < 5 ? `Day ${days} is going on` : "Coming soon"}
             </p>
           )}
-          {/* <div className="flex mt-5 relative md:bottom-[50px] top-[189px] justify-around w-[70%] lg:hidden text-white">
-            <a href="www.google.com" target="_blank">
-              <FiInstagram
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-            <a href="www.google.com" target="_blank">
-              <FiFacebook
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-            <a href="www.google.com" target="_blank">
-              <FaLinkedinIn
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-            <a href="tel:7439596599" target="_blank">
-              <FiPhone
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-          </div> */}
         </div>
         <div className="text-white hidden lg:block lg:mt-4">
           <img
-            // className="h-[200px] w-[300px] lg:h-[500px]"
             src={logo}
           />
         </div>
       </div>
-      {/* <div className="hidden lg:flex lg:flex-col justify-around items-start  text-white h-[25vh] z-10"> */}
       <div className="flex fixed lg:left-[20px] left-1/2 transform -translate-x-1/2 bottom-[100px] lg:flex-col flex-row lg:justify-center justify-evenly items-center lg:h-[161px] lg:w-[50px] h-[5%] w-[300px] lg:ml-[40px] text-white z-10">
                 <a href="www.google.com" target="_blank" className="glitch-effect py-4">
                     <FiInstagram
