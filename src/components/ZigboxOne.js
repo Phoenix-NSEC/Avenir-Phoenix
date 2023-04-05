@@ -90,7 +90,7 @@ const ZigboxOne = (props) => {
                 </div>
                 <div className="box md:block relative hidden ease-in-out duration-300 md:right-20 md:bottom-[0px] right-[60px] bottom-[170px]  md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-5xl"><i class={`${props.icon} relative top-[38px]`}></i></div>
             </div>
-            <div className="box md:hidden relative bottom-[375px] left-[110px] ease-in-out duration-300 md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-4xl"><i class={`${props.icon} relative top-[19px]`}></i></div>
+            <div className="box md:hidden relative bottom-[375px] left-[100px] ease-in-out duration-300 md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-4xl"><i class={`${props.icon} relative top-[19px]`}></i></div>
         </>
     )
 }
