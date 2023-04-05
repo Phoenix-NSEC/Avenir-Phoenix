@@ -20,14 +20,6 @@
     --text-color-name: #ffffff;
     --text-color-designation: #ffffff;
 }
-body
-{
-    min-height: 100vh;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url('../../Assets/Images/bg_event.jpg');
-    background-repeat: repeat-y;
-    background-position: center;
-    background-size: cover;
-}
 
 .card-container-teams
 {
