@@ -19,7 +19,7 @@ function Events() {
   }, []);
 
   return (
-    <div className='container flex flex-col items-center max-w-screen justify-center min-h-screen'>
+    <div className='container flex flex-col items-center min-w-full justify-center min-h-screen'>
       {/* <div class="overlay"></div> */}
       <div className='eventPage lg:mt-[60px] flex flex-col justify-center item-center'>
         <div className="btnGrp1 justify-center items-center mt-[30px] mx-auto grid md:grid-cols-4 grid-cols-2 md:gap-x-[100px] gap-x-[20px] md:gap-y-[25px] gap-y-[5px]">
