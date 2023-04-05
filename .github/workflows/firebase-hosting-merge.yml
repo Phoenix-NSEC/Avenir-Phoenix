@@ -15,6 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+
       - run: npm install -f
       - run: npm run build
       - name: Archive Build
@@ -22,6 +23,10 @@ jobs:
         with:
           name: build
           path: build
+
+      - run: |
+          npm install -f
+          npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
