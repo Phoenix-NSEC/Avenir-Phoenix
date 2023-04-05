@@ -5,7 +5,7 @@ import Events from './pages/Events/Events.js';
 import Aboutus from './pages/About/Aboutus';
 import Contact from './pages/Contact/Contact';
 import Team from './pages/Team/Team';
-import Patners from './pages/Patners/Patners';
+// import Partners from './pages/Partners/Partners';
 import Navbar from './components/Navbar';
 
 function App() {

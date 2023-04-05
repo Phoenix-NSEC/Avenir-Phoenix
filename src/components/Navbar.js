@@ -76,7 +76,7 @@ function Navbar() {
           {/* <NavLink to="patners">
             <li
               className={
-                path === "/patners"
+                path === "/partners"
                   ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
                   : "text-[20px] text-center glitch-effect mx-6"
               }

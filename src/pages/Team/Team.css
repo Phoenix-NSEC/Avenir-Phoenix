@@ -9,7 +9,7 @@
 :root
 {
     --card-height: 10rem;
-    --card-width: 24vw;
+    --card-width: 20vw;
     --font-name: 1.2rem;
     --font-designation: 1.5rem;
     --transition-time: 0.5s;
@@ -24,6 +24,8 @@
 .card-container-teams
 {
     margin-top: 11%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .card-teams
 {
@@ -192,10 +194,15 @@
 /* Removed hover effects in mobile view */
 @media (hover: none) and (max-width: 768px)
 {
+    .card-container-teams
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
     .card-teams
     {
         /* width: 85vw; */
-        width: 80vw;
+        width: 85vw;
         /* height: calc(var(--card-height) + 85px); */
         height: calc(var(--card-height) + 50px);
         margin-top: 40%;
@@ -218,10 +225,19 @@
     {
         margin-top: 4%;
     }
+    .only-for-desktop
+    {
+        display: none;
+    }
 }
 
 @media (hover:none) and (min-width:769px) and (max-width: 1023px)
 {
+    .card-container-teams
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
     .card-teams
     {
         width: 40vw;
@@ -239,6 +255,11 @@
     height: 70%;
     padding-top: 0;
     }
+    .only-for-desktop
+    {
+        display: none;
+    }
+
 }
 
 

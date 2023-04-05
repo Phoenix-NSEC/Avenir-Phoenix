@@ -1,7 +1,7 @@
 const team=[
     {
         dp: "https://picsum.photos/200",
-        name: "Dummy User",
+        name: "Rudraneel Bhattacharya",
         designation: "Head",
         facebook: "",
         instagram: "",
