@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import logo from '../Assets/Images/logo2.png'
 import "../Assets/Css/navbarGlitch.css";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <div
-      className="navbar flex justify-center items-center  z-50 fixed top-0 left-0"
+      className="navbar flex justify-center items-center z-50 lg:absolute fixed top-0 left-0"
     >
       <div
         className="absolute md:hidden top-50 top-[2.75px] left-[2.75px] z-[1000]"
@@ -32,8 +32,8 @@ function Navbar() {
           <HiX className="h-[30px] w-[30px] text-white bg-red-500" />
         )}
       </div>
-      <div className="icon md:block hidden md:w-30 py:2 md:py-3 flex relative top-[12px] left-[10%] " onClick={()=>navigate("/home")}>
-        <img src={logo} alt="logo of PHOENIX" width="150px" />
+      <div className="icon md:block hidden md:w-30 py:2 md:py-3 z-10 relative top-[12px] left-[10%]" onClick={()=>(navigate("/"))}>
+        <img src={logo} alt="logo of PHOENIX" width="150px" className=" hover:cursor-pointer" />
       </div>
       <div
         className={`menu  flex justify-center fixed top-0 left-0 w-screen pt-6 md:w-70 h-full md:h-auto md:relative md:bg-none md:backdrop-blur-[0px] bg-black backdrop-blur-[8px] bg-transparent md:block ${!navState ? "hidden" : "flex"
@@ -73,7 +73,7 @@ function Navbar() {
               About us
             </li>
           </NavLink>
-          <NavLink to="patners">
+          {/* <NavLink to="patners">
             <li
               className={
                 path === "/patners"
@@ -83,7 +83,7 @@ function Navbar() {
             >
               Partners
             </li>
-          </NavLink>
+          </NavLink> */}
           <NavLink to="teams">
             <li
               className={
