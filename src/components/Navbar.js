@@ -73,17 +73,17 @@ function Navbar() {
               About us
             </li>
           </NavLink>
-          <NavLink to="patners">
+          {/* <NavLink to="partners">
             <li
               className={
-                path === "/patners"
+                path === "/partners"
                   ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
                   : "text-[20px] text-center glitch-effect mx-6"
               }
             >
               Partners
             </li>
-          </NavLink>
+          </NavLink> */}
           <NavLink to="teams">
             <li
               className={
