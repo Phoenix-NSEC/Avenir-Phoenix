@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
+import logo from '../Assets/Images/white_logo.png'
 import "../Assets/Css/navbarGlitch.css";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 
@@ -19,7 +20,7 @@ function Navbar() {
 
   return (
     <div
-      className="navbar flex z-50 w-full text fixed top-0 left-0"  
+      className="navbar flex z-50 w-full text fixed top-0 left-0"
     >
       <div
         className="absolute md:hidden top-50 left-[2.75px] z-[1000]"
@@ -32,12 +33,11 @@ function Navbar() {
         )}
       </div>
       {/* <div className="icon md:w-30 w-full justify-center   py:2 md:py-3 flex  " onClick={()=>navigate("/home")}>
-        <img src={logo} alt="" width="100px" />
+        <img src={logo} alt="" width="58x" />
       </div> */}
       <div
-        className={`menu  flex justify-center fixed top-0 left-0 w-screen pt-6 md:w-70 h-full md:h-auto md:relative bg-black backdrop-blur-[8px] bg-transparent md:block ${
-          !navState ? "hidden" : "flex"
-        }`}
+        className={`menu  flex justify-center fixed top-0 left-0 w-screen pt-6 md:w-70 h-full md:h-auto md:relative bg-black backdrop-blur-[8px] bg-transparent md:block ${!navState ? "hidden" : "flex"
+          }`}
       >
         <ul className="flex flex-col justify-center items-center md:flex-row gap-10 font-bold py-3 text-[1.4rem] md:text-[.5rem] lg:text-[.9rem] text-white font-orbitron">
           <NavLink to="/">

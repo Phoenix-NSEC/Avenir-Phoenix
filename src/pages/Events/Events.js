@@ -3,6 +3,7 @@ import ZigboxOne from '../../components/ZigboxOne'
 import './Events.css'
 import './glitch.css'
 import { Cybernix, Robonix, Eloquense, Nirmaan, specialEventsNormal, specialEventsGaming, Illustro, funEvents } from '../../Data/EventData';
+import Socials from '../../components/Socials';
 
 function Events() {
   const [data, setData] = useState([]);
@@ -18,10 +19,9 @@ function Events() {
   }, []);
 
   return (
-    <div className='container flex flex-col max-w-full items-center justify-center min-h-screen'>
+    <div className='container flex flex-col items-center max-w-screen justify-center min-h-screen'>
       {/* <div class="overlay"></div> */}
-      <div className='eventPage py-10 flex flex-col justify-center item-center'>
-        <h1 className='py-6 text-center font-orbitron text-4xl md:text-5xl text-white'>EVENTS</h1>
+      <div className='eventPage lg:mt-[60px] flex flex-col justify-center item-center'>
         <div className="btnGrp1 justify-center items-center mt-[30px] mx-auto grid md:grid-cols-4 grid-cols-2 md:gap-x-[100px] gap-x-[20px] md:gap-y-[25px] gap-y-[5px]">
           <button class={color === "Cybernix" ? "glitchex" : "cybr-btn"} onClick={() => { handleData(Cybernix) }}>
             Cybernix<span aria-hidden>_</span>
@@ -76,6 +76,7 @@ function Events() {
           }
         </div>
       </div >
+      <Socials/>
     </div>
   )
 }

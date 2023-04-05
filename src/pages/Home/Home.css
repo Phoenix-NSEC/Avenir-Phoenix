@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Mokoto;
+  src: url('../../Assets/Fonts/Mokoto\ Glitch\ Mark\ 2.ttf');
+}
 
 .sub-body .kunal{
   position: absolute;
@@ -7,7 +11,7 @@
   height: 100%;
   content: "";
   background-color: black;
-  opacity: 0.75;
+  opacity: 0.70;
 }
 
 
@@ -91,5 +95,38 @@
       scroll-behavior: auto !important;
       transition-duration: 0s !important;
       transition-delay: 0s !important;
+    }
+  }
+
+  .name h1{
+    font-family: Mokoto;
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .caption p{
+    font-family: Mokoto;
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .name h1{
+      font-family: Mokoto;
+      font-size: 50px;
+      text-align: center;
+    }
+    .caption p{
+      font-family: Mokoto;
+      font-size: 15px;
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  @media screen and (max-width: 1030px) and (min-width: 500px) {
+    .name h1{
+      font-family: Mokoto;
+      font-size: 100px;
+      text-align: center;
     }
   }
