@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17e93185.css",
+    "main.js": "/static/js/main.4bbb5fd9.js",
+    "static/media/bgGif.gif": "/static/media/bgGif.4535aa23324c954fb573.gif",
+    "static/media/logo.gif": "/static/media/logo.19e110d23f57b046ecaa.gif",
+    "static/media/bg_event.jpg": "/static/media/bg_event.98d5945df612e99d5be3.jpg",
+    "static/media/Mokoto Glitch Mark 2.ttf": "/static/media/Mokoto Glitch Mark 2.851a6fb05dc902e41476.ttf",
+    "static/media/logo2.png": "/static/media/logo2.47abd1b14568bba2298c.png",
+    "index.html": "/index.html",
+    "main.17e93185.css.map": "/static/css/main.17e93185.css.map",
+    "main.4bbb5fd9.js.map": "/static/js/main.4bbb5fd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17e93185.css",
+    "static/js/main.4bbb5fd9.js"
+  ]
+}
