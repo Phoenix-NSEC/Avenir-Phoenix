@@ -19,7 +19,7 @@ function nCard(val){
 function Team() {
   return (
     <>
-    <div className="card-container-teams h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
+    <div className="card-container-teams min-h-screen justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
     {team.map(nCard)}
     </div>
     <div className="only-for-desktop">
