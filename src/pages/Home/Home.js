@@ -52,7 +52,7 @@ function Home() {
   }, []);
 
   return (
-    <div className={`flex flex-col min-h-screen sub-body`} style={{backgroundImage: `url(${bgGif})`,backgroundSize: "cover"}}>
+    <div className={`flex flex-col md:min-h-screen min-h-[90vh] sub-body`} style={{backgroundImage: `url(${bgGif})`,backgroundSize: "cover"}}>
       <div className="kunal"></div>
       <div className="flex relative md:justify-around md:items-end items-center justify-center md:h-[75vh] h-[100vh] max-w-full md:w-50 z-10">
         <div className="flex flex-col justify-evenly relative md:left-[100px] md:top-[50px] lg:items-start items-center ">
