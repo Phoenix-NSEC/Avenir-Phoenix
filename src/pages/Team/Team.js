@@ -38,7 +38,6 @@ function Team() {
       <div className="only-for-desktop">
         <Socials />
       </div>
-
     </>
   )
 }
