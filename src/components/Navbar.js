@@ -36,8 +36,8 @@ function Navbar() {
       <div className="icon md:flex md:flex-col md:justify-center md:block hidden md:w-30 py:2 md:py-3 z-10 relative top-[12px] left-[10%] " >
         <a href='https://phoenixnsec.in/' target="_blank"><img src={logo} alt="logo of PHOENIX" width="70px" height="10px" className="border-r-2 pr-8 hover:cursor-pointer" /></a>
       </div>
-      <div className="icon md:flex md:flex-col md:justify-center md:block hidden md:w-30 py:2 md:py-3 z-10 relative top-[12px] left-[10%] " >
-        <a href='https://avenir.phoenixnsec.in/' target="_blank"><img src={anLogo} alt="logo of PHOENIX" width="70px" height="10px" className="pl-8 hover:cursor-pointer" /></a>
+      <div className="icon md:flex md:flex-col md:justify-center md:block hidden md:w-30 py:2 md:py-3 z-10 relative top-[12px] left-[10%] " onClick={() => { navigate('/') }}>
+        <img src={anLogo} alt="logo of PHOENIX" width="70px" height="10px" className="pl-8 hover:cursor-pointer" />
       </div>
       <div
         className={`menu  flex justify-center fixed top-0 left-0 w-screen pt-6 md:w-70 h-full md:h-auto md:relative md:bg-none md:backdrop-blur-[0px] bg-black backdrop-blur-[8px] bg-transparent md:block ${!navState ? "hidden" : "flex"
