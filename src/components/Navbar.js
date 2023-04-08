@@ -43,20 +43,18 @@ function Navbar() {
         className={`menu  flex justify-center fixed top-0 left-0 w-screen pt-6 md:w-70 h-full md:h-auto md:relative md:bg-none md:backdrop-blur-[0px] bg-black backdrop-blur-[8px] bg-transparent md:block ${!navState ? "hidden" : "flex"
           }`}
       >
-        <ul className="flex flex-col mb-[100px] md:mb-[0px] justify-center items-center md:flex-row gap-10 font-bold py-3 text-[1.4rem] md:text-[.5rem] lg:text-[.9rem] text-white font-orbitron">
-          <NavLink to="/">
-            <div className="flex flex-row justify-center h-full">
-              <li className="md:hidden"
-              >
-                <a href='https://phoenixnsec.in/' target="_blank"><img src={logo} alt="logo of PHOENIX" width="65px" height="10px" className="border-r-2 hover:cursor-pointer pr-6" /></a>
-              </li>
-              <li
-                className="md:hidden"
-              >
-                <img src={anLogo} alt="logo of PHOENIX" width="70px" height="10px" className="hover:cursor-pointer pl-6" />
-              </li>
-            </div>
-          </NavLink>
+        <ul className="flex flex-col mb-[140px] md:mb-[0px] justify-center items-center md:flex-row gap-10 font-bold py-3 text-[1.4rem] md:text-[.5rem] lg:text-[.9rem] text-white font-orbitron">
+          <div className="flex flex-row justify-center h-full relative top-[100px]">
+            <li className="md:hidden"
+            >
+              <a href='https://phoenixnsec.in/' target="_blank"><img src={logo} alt="logo of PHOENIX" width="65px" height="10px" className="border-r-2 hover:cursor-pointer pr-6" /></a>
+            </li>
+            <li
+              className="md:hidden"
+            >
+              <img src={anLogo} alt="logo of PHOENIX" width="70px" height="10px" className="hover:cursor-pointer pl-6" onClick={() => { navigate('/') }} />
+            </li>
+          </div>
           <NavLink to="/">
             <li
               className={
