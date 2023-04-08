@@ -41,17 +41,17 @@ const team={
             name: "Debjyoti Roy Sarkar",
             designation: "Vice President - Forums & Events",
             dept: "AEIE, 4TH YEAR",
-            facebook: "",
-            instagram: "",
-            linkedin: ""
+            facebook: "https://www.facebook.com/debjyoti.roysarkar?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/the__.orphic_.soul._?igshid=ZDdkNTZiNTM=",
+            linkedin: "linkedin.com/in/debjyoti-roy-sarkar-4ab8aa220"
         },
         {
-            dp: require('../Assets/TeamImg/default.jpg'),
+            dp: require('../Assets/TeamImg/subhransu_roy.jpg'),
             name: "Shubhranshu Roy",
             designation: "Convener",
             dept: "ECE, 4TH YEAR",
-            facebook: "",
-            instagram: "",
+            facebook: "https://www.facebook.com/subhransu.roy.73?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/byek_lover?igshid=ZDdkNTZiNTM=",
             linkedin: ""
         },
         {
@@ -86,9 +86,9 @@ const team={
             name: "Prapti Hazra",
             designation: "PR Manager",
             dept: "BME, 4TH YEAR",
-            facebook: "",
+            facebook: "https://www.facebook.com/prapti.hazra.54?mibextid=ZbWKwL",
             instagram: "",
-            linkedin: ""
+            linkedin: "https://www.linkedin.com/in/prapti-hazra-82a924225/"
         },
         {
             dp: require('../Assets/TeamImg/mayukhjit_chakraborty.jpg'),
@@ -139,12 +139,12 @@ const team={
             linkedin: "https://www.linkedin.com/in/jayatsen-sharma/"
         },
         {
-            dp: require('../Assets/TeamImg/default.jpg'),
+            dp: require('../Assets/TeamImg/sharandeep_mukhopadhyay.jpg'),
             name: "Sharandeep Mukhopadhyay",
             designation: "Dynamic Content Head",
             dept: "CSE, 3RD YEAR",
             facebook: "",
-            instagram: "",
+            instagram: "http://instagram.com/sharan_deep_9277/",
             linkedin: ""
         },
         {
@@ -169,7 +169,7 @@ const team={
             dp: require('../Assets/TeamImg/shubham_dhar.jpeg'),
             name: "Shubham Dhar",
             designation: "Community Manager & Advisor",
-            dept: "EE, PASS OUT",
+            dept: "ECE, 2ND YEAR",
             facebook: "https://www.facebook.com/shubham.dhar.53?mibextid=ZbWKwL",
             instagram: "",
             linkedin: ""
@@ -179,7 +179,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/aman_rai.jpg'),
             name: "Aman Raj",
-            designation: "Robonix Event Head",
+            designation: "COORDINATOR [Robonix]",
             dept: "ME, 4TH YEAR",
             facebook: "https://m.facebook.com/profile.php?id=100008519984080",
             instagram: "https://instagram.com/amansinghrajput016?igshid=ZDdkNTZiNTM=",
@@ -188,7 +188,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/sovandeb_paul.jpg'),
             name: "Sovandeep Paul",
-            designation: "Robonix Event Head",
+            designation: "COORDINATOR [Robonix]",
             dept: "AEIE, 4TH YEAR",
             facebook: "https://www.facebook.com/sovandeb.paul.96?mibextid=ZbWKwL",
             instagram: "https://instagram.com/___sovan__.01?igshid=ZDdkNTZiNTM=",
@@ -197,16 +197,16 @@ const team={
         {
             dp: require('../Assets/TeamImg/ilika_mitra.jpg'),
             name: "Ilika Mitra",
-            designation: "Robonix Event Head",
+            designation: "COORDINATOR [Robonix]",
             dept: "ECE, 4TH YEAR",
             facebook: "",
             instagram: "",
-            linkedin: ""
+            linkedin: "https://in.linkedin.com/in/ilika-mitra-1232311a8"
         },
         {
             dp: require('../Assets/TeamImg/default.jpg'),
             name: "Deblina Dutta",
-            designation: "Robonix Event Head",
+            designation: "COORDINATOR [Robonix]",
             dept: "ECE, 4TH YEAR",
             facebook: "",
             instagram: "",
@@ -215,7 +215,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/default.jpg'),
             name: "Sourov Kumar Sarkar",
-            designation: "Robonix Event Head",
+            designation: "COORDINATOR [Robonix]",
             dept: "EE, 4TH YEAR",
             facebook: "",
             instagram: "",
@@ -224,7 +224,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/samrat_mitra.png'),
             name: "Samrat Mitra",
-            designation: "Robonix Event Head",
+            designation: "COORDINATOR [Robonix]",
             dept: "AEIE, 4TH YEAR",
             facebook: "https://www.facebook.com/samrat.mitra.75457/",
             instagram: "https://www.instagram.com/goriber_naam_samrat_mitra/",
@@ -233,7 +233,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/deblina_chattopadhyay.jpg'),
             name: "Deblina Chattopadhyay",
-            designation: "Eloquense Event Head",
+            designation: "COORDINATOR [Eloquense]",
             dept: "AEIE, 4TH YEAR",
             facebook: "https://www.facebook.com/profile.php?id=100009508572466&mibextid=ZbWKwL",
             instagram: "https://instagram.com/deblinachattopadhyay?igshid=ZDdkNTZiNTM=",
@@ -242,7 +242,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/faruque_aziz.jpg'),
             name: "Faruque Aziz",
-            designation: "Eloquense Event Head",
+            designation: "COORDINATOR [Eloquense]",
             dept: "ECE, 4TH YEAR",
             facebook: "https://www.facebook.com/faruque.aziz.969?mibextid=ZbWKwL",
             instagram: "https://instagram.com/aziz_faruque?igshid=YmMyMTA2M2Y=",
@@ -251,7 +251,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/default.jpg'),
             name: "Suvadeep Maity",
-            designation: "Cybernix Event Head",
+            designation: "CORDINATOR [Cybernix]",
             dept: "ECE, 4TH YEAR",
             facebook: "",
             instagram: "",
@@ -260,7 +260,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/shweta_laha.png'),
             name: "Shweta Laha",
-            designation: "Cybernix Event Head",
+            designation: "CORDINATOR [Cybernix]",
             dept: "ECE, 4TH YEAR",
             facebook: "https://www.facebook.com/shwetalaha17?mibextid=ZbWKwL",
             instagram: "https://instagram.com/shweta._.laha?igshid=YmMyMTA2M2Y=",
@@ -269,7 +269,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/souvik_debnath.png'),
             name: "Sovik Debnath",
-            designation: "Cybernix Event Head",
+            designation: "CORDINATOR [Cybernix]",
             dept: "ECE, 4TH YEAR",
             facebook: "https://www.facebook.com/souvik.debnath.767",
             instagram: "https://www.instagram.com/cr7_d_souvik/",
@@ -278,7 +278,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/upaneeta_chakraborty.png'),
             name: "Upaneeta Chakrabarty",
-            designation: "Cybernix Event Head",
+            designation: "CORDINATOR [Cybernix]",
             dept: "ECE, 4TH YEAR",
             facebook: "https://www.facebook.com/upaneeta.chakraborty?mibextid=ZbWKwL",
             instagram: "https://instagram.com/_upaneeta_?igshid=ZDdkNTZiNTM=",
@@ -287,7 +287,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/tanuka_mondal.png'),
             name: "Tanuka Mondal",
-            designation: "Cybernix Event Head",
+            designation: "CORDINATOR [Cybernix]",
             dept: "ECE, 4TH YEAR",
             facebook: "",
             instagram: "",
@@ -296,7 +296,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/anamitra_sarkar.jpg'),
             name: "Anamitra Sarkar",
-            designation: "Nirman Event Head",
+            designation: "CORDINATOR [Nirman]",
             dept: "CE, 4TH YEAR",
             facebook: "https://www.facebook.com/aksh.sarkar.167",
             instagram: "https://www.instagram.com/lone_believer/",
@@ -305,7 +305,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/subhamay_barman.png'),
             name: "Subhamay Barman",
-            designation: "Nirman Event Head",
+            designation: "CORDINATOR [Nirman]",
             dept: "CE, 4TH YEAR",
             facebook: "https://www.facebook.com/subhamay.barman.948",
             instagram: "https://www.instagram.com/subhamy_cr7/",
@@ -314,7 +314,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/default.jpg'),
             name: "Nayan Kumar Robart",
-            designation: "Nirman Event Head",
+            designation: "CORDINATOR [Nirman]",
             dept: "CE, 4TH YEAR",
             facebook: "",
             instagram: "",

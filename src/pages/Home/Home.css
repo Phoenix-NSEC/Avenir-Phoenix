@@ -100,7 +100,7 @@
 
   .name h1{
     font-family: Mokoto;
-    font-size: 120px;
+    font-size: 100px;
     text-align: center;
   }
 
@@ -109,10 +109,14 @@
     font-size: 20px;
   }
 
+  .clock{
+    font-family: Mokoto!important;
+  }
+
   @media screen and (max-width: 480px) {
     .name h1{
       font-family: Mokoto;
-      font-size: 50px;
+      font-size: 30px;
       text-align: center;
     }
     .caption p{
