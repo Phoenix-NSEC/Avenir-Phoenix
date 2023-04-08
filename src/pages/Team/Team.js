@@ -2,7 +2,8 @@ import React from 'react'
 import './Team.css';
 import '../../Assets/Css/navbarGlitch.css';
 import Card from '../../components/Card';
-import team from '../../Data/teamdata';
+import team from '../../Data/TeamData';
+import Socials from '../../components/Socials';
 
 function nCard(val){
   return ( <Card
@@ -18,9 +19,13 @@ function nCard(val){
 function Team() {
   return (
     <>
-    <div className="card-container-teams h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
+    <div className="card-container-teams min-h-screen justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
     {team.map(nCard)}
     </div>
+    <div className="only-for-desktop">
+    <Socials />
+    </div>
+
     </>
   )
 }

@@ -3,25 +3,25 @@ let Cybernix = [
         wing: 'Cybernix',
         icon: 'fa-brands fa-uikit fa-bounce',
         title: "The UX-Factor ",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Are your hobbies more on the design side of CS - if yes, boy do we have the perfect match for you, literally! Prepare to put forward the best designed web page and walk away the champion the UX-Factor",
     },
     {
         wing: 'Cybernix',
         icon: 'fa-brands fa-stack-overflow fa-bounce',
         title: "Stack Overflow",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Get your nerd glasses on and your fingers flexed because with event, we're bringing in the preppiest of code-challenges and you'll be tasked with solving them in the fastest possible time frame to prove your code-competency!",
     },
     {
         wing: 'Cybernix',
         icon: 'fa-sharp fa-solid fa-code fa-bounce',
         title: "Algo Samurai",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "For the first time ever, we're presenting to you, \"Algo-Samurai\", an time-complexity based competition wherein you'll be judged not just on how you solve the problem at hand but how efficiently you do it - win big, and keep your Os logged is what we're going for here!",
     },
     {
         wing: 'Cybernix',
         icon: 'fa-solid fa-bug-slash fa-bounce ',
         title: "Debug Dojo",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Get your bug sprays handy as we riddle you with the nastiest of code bugs that you, dear competitor will have to find out and remove in order to crowned the master of this Dojo.",
     }
 ]
 
@@ -51,31 +51,31 @@ let Eloquense = [
         wing: 'Eloquense',
         icon: 'fa-solid fa-hand-fist fa-bounce ',
         title: "Kurukshetra",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Words are power and we're reviving this long held tradition of letting people prove their beliefs by using their wits and rhetoric to win over the crowd!",
     },
     {
         wing: 'Eloquense',
         icon: 'fa-solid fa-image fa-bounce ',
         title: "Pict-o-press",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "For the people out there who believe that all they need is a spark of inspiration, we have just the right event for you - Write your best, and walk away the winner!",
     },
     {
         wing: 'Eloquense',
         icon: 'fa-solid fa-microphone fa-bounce ',
         title: "Carpe Diem",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "For those that thrive in front of the mic and like the crowd at your fingertips - this iteration is a free for all fiesta where anything and everything is welcomed. from slam poetry to speeches to just jazzing it up if that's more your style!",
     },
     {
         wing: 'Eloquense',
         icon: 'fa-solid fa-book-open-reader fa-bounce ',
         title: "Amnesiacs anonymous",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Prepare to have your mind absolutely riddled and picked as we bring out two editions of this Quizzing event simultaneously with all sorts of people in mind, from the technical to pop culture, we'll cover it all!",
     },
     {
         wing: 'Eloquense',
         icon: 'fa-solid fa-helmet-un fa-bounce ',
         title: "WAR OF THE WORDS",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "A combination of politics, fun and just the tiniest amount of malicious rhetoric, we're introducing, for the first time ever, our very own rendition of a Model United Nations!",
     }
 ]
 

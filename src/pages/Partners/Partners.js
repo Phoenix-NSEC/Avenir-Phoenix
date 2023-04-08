@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Patners() {
+function Partners() {
   return (
     <div>
       Patners page
@@ -8,4 +8,4 @@ function Patners() {
   )
 }
 
-export default Patners
+export default Partners

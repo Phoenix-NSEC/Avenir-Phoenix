@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Clock from "../../components/Clock";
 import bgGif from '../../Assets/gifs/bgGif.gif'
-import logo from '../../Assets/gifs/logo.gif'
+import logo from '../../Assets/gifs/logo2.gif'
 import "../../Assets/Css/navbarGlitch.css"
 import "./Home.css";
 import { FiFacebook, FiInstagram, FiPhone } from "react-icons/fi";
@@ -57,14 +57,14 @@ function Home() {
       <div className="flex relative md:justify-around md:items-end items-center justify-center md:h-[75vh] h-[100vh] max-w-full md:w-50 z-10">
         <div className="flex flex-col justify-evenly relative md:left-[100px] md:top-[50px] lg:items-start items-center ">
           <div className="name pb-1 md:pl-5">
-            <h1 className="glitch md:text-[150px] text-white z-10">
-              <span aria-hidden="true z-10">AVENIR</span>
-              AVENIR
-              <span aria-hidden="true z-10">AVENIR</span>
+            <h1 className="glitch md:text-[150px] text-[#FF5757] z-10">
+              <span aria-hidden="true z-10">AVENIR'23</span>
+              AVENIR'23
+              <span aria-hidden="true z-10">AVENIR'23</span>
             </h1>
           </div>
           <div className="caption pb-5 md:pl-5 relative bottom-2">
-            <p className="md:text-[20px] text-[15px] text-center text-purple-500 font-audiowide">
+            <p className="md:text-[20px] text-[15px] text-center text-[#CB6CE6] font-bold font-audiowide">
               Beyond Infinity
             </p>
           </div>
@@ -76,45 +76,17 @@ function Home() {
               timerSeconds={timerSeconds}
             />
           ) : (
-            <p className=" text-purple-600 lg:text-[40px] lg:pl-4 text-[25px] text-center font-audiowide">
-              {days < 5 ? `Day ${days} is going on` : "Comming soon"}
+            <p className="clock text-purple-600 lg:text-[40px] lg:pl-4 text-[25px] text-center">
+              {days < 5 ? `Day ${days} is going on` : "Coming soon"}
             </p>
           )}
-          {/* <div className="flex mt-5 relative md:bottom-[50px] top-[189px] justify-around w-[70%] lg:hidden text-white">
-            <a href="www.google.com" target="_blank">
-              <FiInstagram
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-            <a href="www.google.com" target="_blank">
-              <FiFacebook
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-            <a href="www.google.com" target="_blank">
-              <FaLinkedinIn
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-            <a href="tel:7439596599" target="_blank">
-              <FiPhone
-                size={"30px"}
-                className=" hover:cursor-pointer hover:text-purple-500"
-              />
-            </a>
-          </div> */}
         </div>
         <div className="text-white hidden lg:block lg:mt-4">
           <img
-            // className="h-[200px] w-[300px] lg:h-[500px]"
             src={logo}
           />
         </div>
       </div>
-      {/* <div className="hidden lg:flex lg:flex-col justify-around items-start  text-white h-[25vh] z-10"> */}
       <div className="flex fixed lg:left-[20px] left-1/2 transform -translate-x-1/2 bottom-[100px] lg:flex-col flex-row lg:justify-center justify-evenly items-center lg:h-[161px] lg:w-[50px] h-[5%] w-[300px] lg:ml-[40px] text-white z-10">
                 <a href="www.google.com" target="_blank" className="glitch-effect py-4">
                     <FiInstagram

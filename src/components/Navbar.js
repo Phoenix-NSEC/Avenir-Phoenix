@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
-import logo from '../Assets/Images/white_logo.png'
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
+import logo from '../Assets/Images/logo1.png'
 import "../Assets/Css/navbarGlitch.css";
+import anLogo from '../Assets/Images/logo3.png'
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 
 function Navbar() {
@@ -20,10 +21,10 @@ function Navbar() {
 
   return (
     <div
-      className="navbar flex z-50 w-full text fixed top-0 left-0"
+      className="navbar flex justify-center items-center z-50 lg:absolute fixed top-0 left-0"
     >
       <div
-        className="absolute md:hidden top-50 left-[2.75px] z-[1000]"
+        className="absolute md:hidden top-50 top-[2.75px] left-[2.75px] z-[1000]"
         onClick={handleNav}
       >
         {!navState ? (
@@ -32,11 +33,14 @@ function Navbar() {
           <HiX className="h-[30px] w-[30px] text-white bg-red-500" />
         )}
       </div>
-      {/* <div className="icon md:w-30 w-full justify-center   py:2 md:py-3 flex  " onClick={()=>navigate("/home")}>
-        <img src={logo} alt="" width="58x" />
-      </div> */}
+      <div className="icon md:flex md:flex-col md:justify-center md:block hidden md:w-30 py:2 md:py-3 z-10 relative top-[12px] left-[10%] " >
+        <a href='https://phoenixnsec.in/' target="_blank"><img src={logo} alt="logo of PHOENIX" width="70px" height="10px" className="border-r-2 pr-8 hover:cursor-pointer" /></a>
+      </div>
+      <div className="icon md:flex md:flex-col md:justify-center md:block hidden md:w-30 py:2 md:py-3 z-10 relative top-[12px] left-[10%] " >
+        <a href='https://avenir.phoenixnsec.in/' target="_blank"><img src={anLogo} alt="logo of PHOENIX" width="70px" height="10px" className="pl-8 hover:cursor-pointer" /></a>
+      </div>
       <div
-        className={`menu  flex justify-center fixed top-0 left-0 w-screen pt-6 md:w-70 h-full md:h-auto md:relative bg-black backdrop-blur-[8px] bg-transparent md:block ${!navState ? "hidden" : "flex"
+        className={`menu  flex justify-center fixed top-0 left-0 w-screen pt-6 md:w-70 h-full md:h-auto md:relative md:bg-none md:backdrop-blur-[0px] bg-black backdrop-blur-[8px] bg-transparent md:block ${!navState ? "hidden" : "flex"
           }`}
       >
         <ul className="flex flex-col justify-center items-center md:flex-row gap-10 font-bold py-3 text-[1.4rem] md:text-[.5rem] lg:text-[.9rem] text-white font-orbitron">
@@ -73,17 +77,17 @@ function Navbar() {
               About us
             </li>
           </NavLink>
-          <NavLink to="patners">
+          {/* <NavLink to="patners">
             <li
               className={
-                path === "/patners"
+                path === "/partners"
                   ? " border-b-2 text-[20px] text-center glitch-effect mx-6"
                   : "text-[20px] text-center glitch-effect mx-6"
               }
             >
               Partners
             </li>
-          </NavLink>
+          </NavLink> */}
           <NavLink to="teams">
             <li
               className={

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../pages/Events/glitch.css'
 
 const ZigboxOne = (props) => {
 
@@ -79,11 +80,11 @@ const ZigboxOne = (props) => {
             </style>
             <div className="card flex items-center md:mb-8 md:translate-x-[46px]">
                 <div className='container flex items-center main ease-in-out duration-300 relative md:w-[380px] w-[250px] md:h-[180px] h-[338px] 
-                    md:hover:w-[500px] md:hover:h-[220px]'>
+                    md:hover:w-[400px] md:hover:h-[220px]'>
                     <div className="content md:static md:bottom-0 relative bottom-20">
                         <div className="font-audiowide ease-in-out duration-300 details absolute md:bottom-[19px] bottom-[-239px] z-20 ml-5 md:w-[200px] w-[150px] text-white md:text-2xl text-lg">
                             {props.title}
-                            <div className="md:w-[400px] w-[200px]">
+                            <div className="md:w-[270px] w-[200px]">
                                 <p className='font-chakra text-sm md:hidden ease-in-out duration-300 mt-3'>{props.desc}</p></div>
                         </div>
                     </div>

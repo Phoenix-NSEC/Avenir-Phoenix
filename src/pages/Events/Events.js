@@ -19,8 +19,8 @@ function Events() {
   }, []);
 
   return (
-    <div className='container flex flex-col items-center min-w-full justify-center min-h-screen'>
-      {/* <div class="overlay"></div> */}
+
+    <div className='container flex flex-col items-center max-w-full justify-center min-h-screen'>
       <div className='eventPage lg:mt-[60px] flex flex-col justify-center item-center'>
         <div className="btnGrp1 justify-center items-center mt-[30px] mx-auto grid md:grid-cols-4 grid-cols-2 md:gap-x-[100px] gap-x-[20px] md:gap-y-[25px] gap-y-[5px]">
           <button class={color === "Cybernix" ? "glitchex" : "cybr-btn"} onClick={() => { handleData(Cybernix) }}>
@@ -49,12 +49,12 @@ function Events() {
             <span class="cybr-btn__tag"></span>
           </button>
           <button class={color === "specialEventsNormal" ? "glitchex" : "cybr-btn"} onClick={() => { handleData(specialEventsNormal) }}>
-            Special<span aria-hidden>_</span>
+            Flagship<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">06</span>
             <span class="cybr-btn__tag"></span>
           </button>
           <button class={color === "specialEventsGaming" ? "glitchex" : "cybr-btn"} onClick={() => { handleData(specialEventsGaming) }}>
-            Gaming<span aria-hidden>_</span>
+            eSports<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">07</span>
             <span class="cybr-btn__tag"></span>
           </button>
