@@ -10,7 +10,7 @@ const team={
             linkedin: "https://www.linkedin.com/in/raajbir-bajpaie-7349851a1"
         },
         {
-            dp: require('../Assets/TeamImg/sankhadeep_roy.jpg'),
+            dp: require('../Assets/TeamImg/sankha_deep_roy.jpg'),
             name: "Sankhadeep Roy",
             designation: "General Secretary",
             dept: "ECE, 4TH YEAR",
@@ -37,7 +37,7 @@ const team={
             linkedin: "https://www.linkedin.com/in/rudraneel-bhattacharya-a4332b1a6/"
         },
         {
-            dp: require('../Assets/TeamImg/debjyoti_sarkar.jpg'),
+            dp: require('../Assets/TeamImg/debjyoti_roy_sarkar.jpg'),
             name: "Debjyoti Roy Sarkar",
             designation: "Vice President - Forums & Events",
             dept: "AEIE, 4TH YEAR",
@@ -177,7 +177,7 @@ const team={
     ],
     wing: [
         {
-            dp: require('../Assets/TeamImg/aman_rai.jpg'),
+            dp: require('../Assets/TeamImg/aman_raj.jpg'),
             name: "Aman Raj",
             designation: "COORDINATOR [Robonix]",
             dept: "ME, 4TH YEAR",
@@ -204,21 +204,21 @@ const team={
             linkedin: "https://in.linkedin.com/in/ilika-mitra-1232311a8"
         },
         {
-            dp: require('../Assets/TeamImg/default.jpg'),
+            dp: require('../Assets/TeamImg/deblina_dutta.jpg'),
             name: "Deblina Dutta",
             designation: "COORDINATOR [Robonix]",
             dept: "ECE, 4TH YEAR",
-            facebook: "",
-            instagram: "",
+            facebook: "https://www.facebook.com/deblina.dutta.5264?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/debleeenaa?igshid=ZDdkNTZiNTM=",
             linkedin: ""
         },
         {
-            dp: require('../Assets/TeamImg/default.jpg'),
+            dp: require('../Assets/TeamImg/sourov_kumar_sarkar.jpg'),
             name: "Sourov Kumar Sarkar",
             designation: "COORDINATOR [Robonix]",
             dept: "EE, 4TH YEAR",
-            facebook: "",
-            instagram: "",
+            facebook: "https://www.facebook.com/sourov.sarkar.39108?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/sourov_1234?igshid=YmMyMTA2M2Y=",
             linkedin: ""
         },
         {
@@ -249,13 +249,13 @@ const team={
             linkedin: "https://www.linkedin.com/in/faruque-aziz-428828169"
         },
         {
-            dp: require('../Assets/TeamImg/default.jpg'),
+            dp: require('../Assets/TeamImg/suvadeep_maity.jpg'),
             name: "Suvadeep Maity",
             designation: "CORDINATOR [Cybernix]",
             dept: "ECE, 4TH YEAR",
             facebook: "",
             instagram: "",
-            linkedin: ""
+            linkedin: "https://www.linkedin.com/in/suvadeep-maity"
         },
         {
             dp: require('../Assets/TeamImg/shweta_laha.png'),
@@ -312,16 +312,35 @@ const team={
             linkedin: "https://www.linkedin.com/in/subhamay-barman-a04aa61ba/"
         },
         {
-            dp: require('../Assets/TeamImg/default.jpg'),
+            dp: require('../Assets/TeamImg/nayan_kumar_robart.png'),
             name: "Nayan Kumar Robart",
             designation: "CORDINATOR [Nirman]",
             dept: "CE, 4TH YEAR",
-            facebook: "",
-            instagram: "",
+            facebook: "https://www.facebook.com/NayanKumar756?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/ig_brown_1113?igshid=ZDdkNTZiNTM=",
             linkedin: ""
         },
     ],
-
+    web:[
+        {
+            dp: require('../Assets/TeamImg/shreyam_maity.jpg'),
+            name: "Shreyam Maity",
+            designation: "Web Team",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://facebook.com/shreyam.maity",
+            instagram: "https://instagram.com/shreyam.maity",
+            linkedin: "https://linkedin.com/in/shreyammaity"
+        },
+        {
+            dp: require('../Assets/TeamImg/imon_kallyan_roy.png'),
+            name: "Imon Kalyan Roy",
+            designation: "Web Team",
+            dept: "CSE, 3RD YEAR",
+            facebook: "",
+            instagram: "",
+            linkedin: "https://linkedin.com/in/imon--roy"
+        },
+    ]
 }
 
 export default team;
