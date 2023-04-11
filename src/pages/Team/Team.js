@@ -22,53 +22,53 @@ function Team() {
   const [core, showCore] = useState(true);
   const [working, showWorking] = useState(true);
   const [wing, showWing] = useState(true);
-  const [web, showWeb] = useState(true);
+  const [dev, showDev] = useState(true);
 
   return (
     <>
       <div className='main-wrapper-teams'>
         <div className="buttons-teams">
-          <button className={core && working && wing && web ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={core && working && wing && dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(true);
             showWorking(true);
             showWing(true);
-            showWeb(true);
+            showDev(true);
           }} aria-hidden>All
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={core && !working && !wing && !web ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={core && !working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(true);
             showWorking(false);
             showWing(false);
-            showWeb(false);
+            showDev(false);
           }}>Core Team
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={!core && working && !wing && !web ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={!core && working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(true);
             showWing(false);
-            showWeb(false);
+            showDev(false);
           }}>Working Team
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={!core && !working && !wing && web ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={!core && !working && !wing && dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(false);
             showWing(false);
-            showWeb(true);
+            showDev(true);
           }}>Dev Team
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={!core && !working && wing && !web ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={!core && !working && wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(false);
             showWing(true);
-            showWeb(false);
+            showDev(false);
           }}>Wing Coordinators
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
@@ -84,9 +84,9 @@ function Team() {
           {team.working.map(nCard)}
           {/* This is Working div */}
         </div> : null}
-        {web ? <div className="card-container-teams-web h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
-          {team.web.map(nCard)}
-          {/* This is web div */}
+        {dev ? <div className="card-container-teams-dev h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
+          {team.dev.map(nCard)}
+          {/* This is dev div */}
         </div> : null}
         {wing ? <div className="card-container-teams-wing h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
           {team.wing.map(nCard)}

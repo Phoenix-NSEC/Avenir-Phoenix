@@ -175,6 +175,98 @@ const team={
             linkedin: ""
         },
     ],
+    dev:[
+        {
+            dp: require('../Assets/TeamImg/shreyam_maity.jpg'),
+            name: "Shreyam Maity",
+            designation: "Backend Developer",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://facebook.com/shreyam.maity",
+            instagram: "https://instagram.com/shreyam.maity",
+            linkedin: "https://linkedin.com/in/shreyammaity"
+        },
+        {
+            dp: require('../Assets/TeamImg/imon_kallyan_roy.png'),
+            name: "Imon Kalyan Roy",
+            designation: "Web Administrator",
+            dept: "CSE, 3RD YEAR",
+            facebook: "",
+            instagram: "",
+            linkedin: "https://linkedin.com/in/imon--roy"
+        },
+        {
+            dp: require('../Assets/TeamImg/abhinil_nath.png'),
+            name: "Abhinil Nath",
+            designation: "Frontend Developer",
+            dept: "CSE, 3RD YEAR",
+            facebook: "",
+            instagram: "https://instagram.com/_roxxon?igshid=MGNiNDI5ZTU=",
+            linkedin: "https://www.linkedin.com/in/abhinil-nath-16b2381bb"
+        },
+        {
+            dp: require('../Assets/TeamImg/kunal_ghosh.png'),
+            name: "Kunal Ghosh",
+            designation: "Frontend Developer",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/profile.php?id=100041885537895&mibextid=ZbWKwL",
+            instagram: "https://instagram.com/___deathstroke_____?igshid=ZDdkNTZiNTM=",
+            linkedin: "https://www.linkedin.com/in/kunal-ghosh-3b8612249"
+        },
+        {
+            dp: require('../Assets/TeamImg/rajit_dutta.jpg'),
+            name: "Rajit Dutta",
+            designation: "Frontend Developer",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/lazy.person.5209?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/_.gratiano._?igshid=ZDdkNTZiNTM=",
+            linkedin: "https://www.linkedin.com/in/rajit-dutta-09446a1bb"
+        },
+        {
+            dp: require('../Assets/TeamImg/rituraj_paul.png'),
+            name: "Rituraj Paul",
+            designation: "Frontend Developer",
+            dept: "ECE, 3RD YEAR",
+            facebook: "",
+            instagram: "https://www.instagram.com/riturajpaul18/",
+            linkedin: "https://www.linkedin.com/in/rituraj-paul-5b0478233/"
+        },
+        {
+            dp: require('../Assets/TeamImg/debojit_saha.png'),
+            name: "Debojit Saha",
+            designation: "Frontend Developer",
+            dept: "IT, 2ND YEAR",
+            facebook: "",
+            instagram: "https://www.instagram.com/star_debo/",
+            linkedin: "https://www.linkedin.com/in/debojit-saha/"
+        },
+        {
+            dp: require('../Assets/TeamImg/biswarghya_biswas.png'),
+            name: "Biswarghya Biswas",
+            designation: "Fullstack Developer",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/biswarghya.biswas.7",
+            instagram: "https://www.instagram.com/the_simplord_/",
+            linkedin: "https://www.linkedin.com/in/biswarghya-biswas/"
+        },
+        {
+            dp: require('../Assets/TeamImg/sayan_samanta.jpg'),
+            name: "Sayan Samanta",
+            designation: "Frontend Developer",
+            dept: "CSE, 3RD YEAR",
+            facebook: "",
+            instagram: "",
+            linkedin: "https://www.linkedin.com/in/sayandeveloper/"
+        },
+        {
+            dp: require('../Assets/TeamImg/kallyan_singha.png'),
+            name: "Kallyan Singha",
+            designation: "Fullstack Developer",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/kallyan.singha/",
+            instagram: "https://www.instagram.com/kallyansingha_/",
+            linkedin: "https://www.linkedin.com/in/kallyan-singha01/"
+        },
+    ],
     wing: [
         {
             dp: require('../Assets/TeamImg/aman_raj.jpg'),
@@ -321,26 +413,6 @@ const team={
             linkedin: ""
         },
     ],
-    web:[
-        {
-            dp: require('../Assets/TeamImg/shreyam_maity.jpg'),
-            name: "Shreyam Maity",
-            designation: "Web Team",
-            dept: "CSE, 3RD YEAR",
-            facebook: "https://facebook.com/shreyam.maity",
-            instagram: "https://instagram.com/shreyam.maity",
-            linkedin: "https://linkedin.com/in/shreyammaity"
-        },
-        {
-            dp: require('../Assets/TeamImg/imon_kallyan_roy.png'),
-            name: "Imon Kalyan Roy",
-            designation: "Web Team",
-            dept: "CSE, 3RD YEAR",
-            facebook: "",
-            instagram: "",
-            linkedin: "https://linkedin.com/in/imon--roy"
-        },
-    ]
 }
 
 export default team;
