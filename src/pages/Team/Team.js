@@ -20,9 +20,9 @@ function nCard(val) {
 function Team() {
 
   const [core, showCore] = useState(true);
+  const [dev, showDev] = useState(true);
   const [working, showWorking] = useState(true);
   const [wing, showWing] = useState(true);
-  const [dev, showDev] = useState(true);
 
   return (
     <>
@@ -46,15 +46,6 @@ function Team() {
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={!core && working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
-            showCore(false);
-            showWorking(true);
-            showWing(false);
-            showDev(false);
-          }}>Working Team
-            <span class="cybr-btn-teams__glitch"></span>
-            <span class="cybr-btn-teams__tag"></span>
-          </button>
           <button className={!core && !working && !wing && dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(false);
@@ -64,6 +55,16 @@ function Team() {
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
+          <button className={!core && working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+            showCore(false);
+            showWorking(true);
+            showWing(false);
+            showDev(false);
+          }}>Working Team
+            <span class="cybr-btn-teams__glitch"></span>
+            <span class="cybr-btn-teams__tag"></span>
+          </button>
+
           <button className={!core && !working && wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(false);
@@ -80,19 +81,19 @@ function Team() {
           {team.core.map(nCard)}
           {/* This is Core Div */}
         </div> : null}
-        {working ? <div className="card-container-teams-working h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
-          {team.working.map(nCard)}
-          {/* This is Working div */}
-        </div> : null}
         {dev ? <div className="card-container-teams-dev h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
           {team.dev.map(nCard)}
           {/* This is dev div */}
+        </div> : null}
+        {working ? <div className="card-container-teams-working h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
+          {team.working.map(nCard)}
+          {/* This is Working div */}
         </div> : null}
         {wing ? <div className="card-container-teams-wing h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
           {team.wing.map(nCard)}
           {/* This is wing div */}
         </div> : null}
-        
+
 
 
         {/* <div className="card-container-teams-core h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
