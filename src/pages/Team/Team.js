@@ -20,6 +20,7 @@ function nCard(val) {
 function Team() {
 
   const [core, showCore] = useState(true);
+  const [dev, showDev] = useState(true);
   const [working, showWorking] = useState(true);
   const [wing, showWing] = useState(true);
 
@@ -27,45 +28,63 @@ function Team() {
     <>
       <div className='main-wrapper-teams'>
         <div className="buttons-teams">
-          <button className={core && working && wing ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => { 
+          <button className={core && working && wing && dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(true);
             showWorking(true);
             showWing(true);
-            }} aria-hidden>All
+            showDev(true);
+          }} aria-hidden>All
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
-            </button>
-          <button className={core && !working && !wing ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => { 
+          </button>
+          <button className={core && !working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(true);
             showWorking(false);
             showWing(false);
-            }}>Core Team
+            showDev(false);
+          }}>Core Team
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
-            </button>
-          <button className={!core && working && !wing ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => { 
+          </button>
+          <button className={!core && !working && !wing && dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+            showCore(false);
+            showWorking(false);
+            showWing(false);
+            showDev(true);
+          }}>Dev Team
+            <span class="cybr-btn-teams__glitch"></span>
+            <span class="cybr-btn-teams__tag"></span>
+          </button>
+          <button className={!core && working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(true);
             showWing(false);
-            }}>Working Team
+            showDev(false);
+          }}>Working Team
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
-            </button>
-          <button className={!core && !working && wing ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => { 
+          </button>
+
+          <button className={!core && !working && wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(false);
             showWing(true);
-            }}>Wing Coordinators
+            showDev(false);
+          }}>Wing Coordinators
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
-            </button>
+          </button>
         </div>
 
 
         {core ? <div className="card-container-teams-core h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
           {team.core.map(nCard)}
           {/* This is Core Div */}
-        </div> : null }
+        </div> : null}
+        {dev ? <div className="card-container-teams-dev h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
+          {team.dev.map(nCard)}
+          {/* This is dev div */}
+        </div> : null}
         {working ? <div className="card-container-teams-working h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
           {team.working.map(nCard)}
           {/* This is Working div */}
@@ -74,6 +93,7 @@ function Team() {
           {team.wing.map(nCard)}
           {/* This is wing div */}
         </div> : null}
+
 
 
         {/* <div className="card-container-teams-core h-screen flex justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">

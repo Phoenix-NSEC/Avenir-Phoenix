@@ -33,7 +33,7 @@ body {
 .cybr-btn-teams,
 .glitchex-teams {
     margin-top: 9rem;
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
 }
 
 .buttons-teams {
@@ -48,13 +48,13 @@ body {
 .buttons-teams button {
     width: 15rem;
     height: 3.5rem;
-    margin: auto 2%;
+    margin: 2% 2%;
 }
 
 .card-container-teams-core,
 .card-container-teams-working,
 .card-container-teams-wing,
-.card-container-teams-web {
+.card-container-teams-dev {
     height: 100%;
     margin-top: 14rem;
     padding-left: 10%;
@@ -97,7 +97,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-.card-container-teams-web::before {
+.card-container-teams-dev::before {
     content: "Dev Team";
     color: white;
     position: absolute;
@@ -268,7 +268,7 @@ body {
     margin: auto 7%;
 }
 
-@media (hover: none) and (max-width: 480px) {
+@media (hover: none) and (max-width: 470px) {
     .main-wrapper-teams {
         width: 100%;
         position: relative;
@@ -279,12 +279,14 @@ body {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: 60%;
+        width: 100%;
+        margin: 9rem auto;
+        /* margin: % 1%; */
         /* width: 100px; */
     }
 
     .buttons-teams button {
-        width: 100%;
+        width: 40%;
         height: 3rem;
         margin: 1rem auto;
     }
@@ -296,14 +298,14 @@ body {
     .card-container-teams-core,
     .card-container-teams-working,
     .card-container-teams-wing,
-    .card-container-teams-web {
+    .card-container-teams-dev {
         padding-left: 0;
         padding-right: 0;
         margin-top: 200px;
     }
 
     .card-container-teams-core::before,
-    .card-container-teams-working::before, .card-container-teams-wing::before, .card-container-teams-web::before {
+    .card-container-teams-working::before, .card-container-teams-wing::before, .card-container-teams-dev::before {
         top: -8rem;
     }
 
@@ -350,14 +352,14 @@ body {
     .card-container-teams-core,
     .card-container-teams-working,
     .card-container-teams-wing,
-    .card-container-teams-web {
+    .card-container-teams-dev {
         padding-left: 0;
         padding-right: 0;
         margin-top: 14rem;
     }
 
     .card-container-teams-core::before,
-    .card-container-teams-working::before, .card-container-teams-wing::before, .card-container-teams-web::before {
+    .card-container-teams-working::before, .card-container-teams-wing::before, .card-container-teams-dev::before {
         top: -8rem;
     }
 
@@ -402,7 +404,7 @@ body {
     .card-container-teams-core,
     .card-container-teams-working,
     .card-container-teams-wing,
-    .card-container-teams-web {
+    .card-container-teams-dev {
         height: 100%;
         padding-left: 0;
         padding-right: 0;
@@ -413,7 +415,7 @@ body {
     .card-container-teams-core::before,
     .card-container-teams-working::before,
     .card-container-teams-wing::before,
-    .card-container-teams-web::before {
+    .card-container-teams-dev::before {
         top: -5rem;
     }
 
