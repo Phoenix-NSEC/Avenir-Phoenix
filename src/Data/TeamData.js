@@ -128,53 +128,6 @@ const team={
         }
 
     ],
-    working: [
-        {
-            dp: require('../Assets/TeamImg/jayatsen_sharma.png'),
-            name: "Jayatsen Sharma",
-            designation: "Graphic Design Head",
-            dept: "CSE, 3RD YEAR",
-            facebook: "https://www.facebook.com/theunclejezz",
-            instagram: "https://www.instagram.com/uncle_jezz/",
-            linkedin: "https://www.linkedin.com/in/jayatsen-sharma/"
-        },
-        {
-            dp: require('../Assets/TeamImg/sharandeep_mukhopadhyay.jpg'),
-            name: "Sharandeep Mukhopadhyay",
-            designation: "Dynamic Content Head",
-            dept: "CSE, 3RD YEAR",
-            facebook: "",
-            instagram: "http://instagram.com/sharan_deep_9277/",
-            linkedin: ""
-        },
-        {
-            dp: require('../Assets/TeamImg/yash_shaw.png'),
-            name: "Yash Shaw",
-            designation: "Business Operations Head",
-            dept: "CSE, 3RD YEAR",
-            facebook: "https://tinyurl.com/FBYash",
-            instagram: "https://tinyurl.com/YashIG",
-            linkedin: "https://www.linkedin.com/in/yshaw2002"
-        },
-        {
-            dp: require('../Assets/TeamImg/annesha_roy.png'),
-            name: "Annesha Roy",
-            designation: "Relations Head",
-            dept: "CSE, 3RD YEAR",
-            facebook: "https://www.facebook.com/profile.php?id=100008862632466&mibextid=ZbWKwL",
-            instagram: "https://instagram.com/ann_esha_roy?igshid=YmMyMTA2M2Y=",
-            linkedin: " https://in.linkedin.com/in/annesha-roy-9b883a1bb"
-        },
-        {
-            dp: require('../Assets/TeamImg/shubham_dhar.jpeg'),
-            name: "Shubham Dhar",
-            designation: "Community Manager & Advisor",
-            dept: "ECE, 2ND YEAR",
-            facebook: "https://www.facebook.com/shubham.dhar.53?mibextid=ZbWKwL",
-            instagram: "",
-            linkedin: ""
-        },
-    ],
     dev:[
         {
             dp: require('../Assets/TeamImg/shreyam_maity.jpg'),
@@ -265,6 +218,53 @@ const team={
             facebook: "https://www.facebook.com/kallyan.singha/",
             instagram: "https://www.instagram.com/kallyansingha_/",
             linkedin: "https://www.linkedin.com/in/kallyan-singha01/"
+        },
+    ],
+    working: [
+        {
+            dp: require('../Assets/TeamImg/jayatsen_sharma.png'),
+            name: "Jayatsen Sharma",
+            designation: "Graphic Design Head",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/theunclejezz",
+            instagram: "https://www.instagram.com/uncle_jezz/",
+            linkedin: "https://www.linkedin.com/in/jayatsen-sharma/"
+        },
+        {
+            dp: require('../Assets/TeamImg/sharandeep_mukhopadhyay.jpg'),
+            name: "Sharandeep Mukhopadhyay",
+            designation: "Dynamic Content Head",
+            dept: "CSE, 3RD YEAR",
+            facebook: "",
+            instagram: "http://instagram.com/sharan_deep_9277/",
+            linkedin: ""
+        },
+        {
+            dp: require('../Assets/TeamImg/yash_shaw.png'),
+            name: "Yash Shaw",
+            designation: "Business Operations Head",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://tinyurl.com/FBYash",
+            instagram: "https://tinyurl.com/YashIG",
+            linkedin: "https://www.linkedin.com/in/yshaw2002"
+        },
+        {
+            dp: require('../Assets/TeamImg/annesha_roy.png'),
+            name: "Annesha Roy",
+            designation: "Relations Head",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/profile.php?id=100008862632466&mibextid=ZbWKwL",
+            instagram: "https://instagram.com/ann_esha_roy?igshid=YmMyMTA2M2Y=",
+            linkedin: " https://in.linkedin.com/in/annesha-roy-9b883a1bb"
+        },
+        {
+            dp: require('../Assets/TeamImg/shubham_dhar.jpeg'),
+            name: "Shubham Dhar",
+            designation: "Community Manager & Advisor",
+            dept: "ECE, 2ND YEAR",
+            facebook: "https://www.facebook.com/shubham.dhar.53?mibextid=ZbWKwL",
+            instagram: "",
+            linkedin: ""
         },
     ],
     wing: [
