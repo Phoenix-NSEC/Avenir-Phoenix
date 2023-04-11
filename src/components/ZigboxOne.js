@@ -79,10 +79,10 @@ const ZigboxOne = (props) => {
                 `}
             </style>
             <div className="card flex items-center md:mb-8 md:translate-x-[46px]">
-                <div className='container flex items-center main ease-in-out duration-300 relative md:w-[380px] w-[250px] md:h-[180px] h-[338px] 
+                <div className='container flex items-center main ease-in-out duration-300 relative md:w-[380px] w-[250px] md:h-[180px] h-[300px] 
                     md:hover:w-[400px] md:hover:h-[220px]'>
                     <div className="content md:static md:bottom-0 relative bottom-20">
-                        <div className="font-audiowide ease-in-out duration-300 details absolute md:bottom-[19px] bottom-[-239px] z-20 ml-5 md:w-[200px] w-[150px] text-white md:text-2xl text-lg">
+                        <div className="font-audiowide ease-in-out duration-300 details absolute md:bottom-[19px] bottom-[-200px] z-20 ml-5 md:w-[200px] w-[150px] text-white md:text-2xl text-lg">
                             {props.title}
                             <div className="md:w-[270px] w-[200px]">
                                 <p className='font-chakra text-sm md:hidden ease-in-out duration-300 mt-3'>{props.desc}</p></div>
@@ -91,7 +91,7 @@ const ZigboxOne = (props) => {
                 </div>
                 <div className="box md:block relative hidden ease-in-out duration-300 md:right-20 md:bottom-[0px] right-[60px] bottom-[170px]  md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-5xl"><i class={`${props.icon} relative top-[38px]`}></i></div>
             </div>
-            <div className="box md:hidden relative bottom-[375px] left-[100px] ease-in-out duration-300 md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-4xl"><i class={`${props.icon} relative top-[19px]`}></i></div>
+            <div className="box md:hidden relative bottom-[335px] left-[100px] ease-in-out duration-300 md:w-[130px] w-[80px] md:h-[130px] h-[80px] overflow-hidden text-white text-center text-4xl"><i class={`${props.icon} relative top-[19px]`}></i></div>
         </>
     )
 }
