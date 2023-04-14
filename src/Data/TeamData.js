@@ -11,7 +11,7 @@ const team={
         },
         {
             dp: require('../Assets/TeamImg/sankha_deep_roy.jpg'),
-            name: "Sankhadeep Roy",
+            name: "Sankha Deep Roy",
             designation: "General Secretary",
             dept: "ECE, 4TH YEAR",
             facebook: "https://www.facebook.com/sankhadeep.roy.102k?mibextid=ZbWKwL",
@@ -47,7 +47,7 @@ const team={
         },
         {
             dp: require('../Assets/TeamImg/subhransu_roy.jpg'),
-            name: "Shubhranshu Roy",
+            name: "Subhransu  Roy",
             designation: "Convener",
             dept: "ECE, 4TH YEAR",
             facebook: "https://www.facebook.com/subhransu.roy.73?mibextid=ZbWKwL",
@@ -65,7 +65,7 @@ const team={
         },
         {
             dp: require('../Assets/TeamImg/debolina_banerjee.jpg'),
-            name: "Debolina Bannerjee",
+            name: "Debolina Banerjee",
             designation: "Asst. Secretary - Promotions",
             dept: "CE, 4TH YEAR",
             facebook: "https://www.facebook.com/profile.php?id=100090164423202&mibextid=ZbWKwL",
@@ -132,7 +132,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/shreyam_maity.jpg'),
             name: "Shreyam Maity",
-            designation: "Backend Developer",
+            designation: "Web Administrator",
             dept: "CSE, 3RD YEAR",
             facebook: "https://facebook.com/shreyam.maity",
             instagram: "https://instagram.com/shreyam.maity",
@@ -211,7 +211,7 @@ const team={
             linkedin: "https://www.linkedin.com/in/sayandeveloper/"
         },
         {
-            dp: require('../Assets/TeamImg/kallyan_singha.png'),
+            dp: require('../Assets/TeamImg/kallyan_singha.jpg'),
             name: "Kallyan Singha",
             designation: "Fullstack Developer",
             dept: "CSE, 3RD YEAR",
@@ -255,15 +255,69 @@ const team={
             dept: "CSE, 3RD YEAR",
             facebook: "https://www.facebook.com/profile.php?id=100008862632466&mibextid=ZbWKwL",
             instagram: "https://instagram.com/ann_esha_roy?igshid=YmMyMTA2M2Y=",
-            linkedin: " https://in.linkedin.com/in/annesha-roy-9b883a1bb"
+            linkedin: "https://in.linkedin.com/in/annesha-roy-9b883a1bb"
+        },
+        {
+            dp: require('../Assets/TeamImg/debraj_majumder.jpeg'),
+            name: "Debraj Majumder ",
+            designation: "Business Partnerships Lead",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/debraj.majumder.758?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/debraj______?igshid=ZDdkNTZiNTM=",
+            linkedin: "https://www.linkedin.com/in/debraj-majumder-19b751212"
+        },
+        {
+            dp: require('../Assets/TeamImg/bidhatri_das.jpg'),
+            name: "Bidhatri Das",
+            designation: "Business Partnerships Lead",
+            dept: "CSE, 3RD YEAR",
+            facebook: "",
+            instagram: "https://instagram.com/bidhatrid71?igshid=ZDdkNTZiNTM=",
+            linkedin: "https://www.linkedin.com/in/bidhatri-das-3926b91a7/"
+        },
+        {
+            dp: require('../Assets/TeamImg/ankana_das.png'),
+            name: "Ankana Das",
+            designation: "Co-Relations Head",
+            dept: "CSE, 3RD YEAR",
+            facebook: "https://www.facebook.com/ankana.das.560272",
+            instagram: "https://www.instagram.com/ankana__das/",
+            linkedin: "https://www.linkedin.com/in/ankana-das-0548401bb/"
+        },
+        {
+            dp: require('../Assets/TeamImg/manan_mal.jpg'),
+            name: "Manan Mal",
+            designation: "Co-PR Head",
+            dept: "CSE, 3RD YEAR",
+            facebook: "",
+            instagram: "https://www.instagram.com/manan_mal/",
+            linkedin: "https://www.linkedin.com/in/manan-mal-9409771bb/"
         },
         {
             dp: require('../Assets/TeamImg/shubham_dhar.jpeg'),
             name: "Shubham Dhar",
-            designation: "Community Manager & Advisor",
+            designation: "Community Manager",
             dept: "ECE, 2ND YEAR",
             facebook: "https://www.facebook.com/shubham.dhar.53?mibextid=ZbWKwL",
             instagram: "",
+            linkedin: ""
+        },
+        {
+            dp: require('../Assets/TeamImg/somnath_dutta.jpg'),
+            name: "Somnath Dutta",
+            designation: "Asst. Business Partnership Lead",
+            dept: "CSBS, 2ND YEAR",
+            facebook: "",
+            instagram: "https://www.instagram.com/parth_onenine/",
+            linkedin: ""
+        },
+        {
+            dp: require('../Assets/TeamImg/nafisa.jpg'),
+            name: "Kazi Nafisa Parvin ",
+            designation: "Asst. Business Partnership Lead",
+            dept: "ECE, 2ND YEAR",
+            facebook: "https://www.facebook.com/profile.php?id=100074295142600&mibextid=ZbWKwL",
+            instagram: "https://instagram.com/nu_mi_n_ous_?igshid=ZDdkNTZiNTM=",
             linkedin: ""
         },
     ],
@@ -386,6 +440,15 @@ const team={
             linkedin: "https://www.linkedin.com/in/tanuka-mondal/"
         },
         {
+            dp: require('../Assets/TeamImg/kumar_shashank.jpeg'),
+            name: "Kumar Shashank",
+            designation: "COORDINATOR [Cybernix]",
+            dept: "IT, 4TH YEAR",
+            facebook: "https://facebook.com/1711shashank",
+            instagram: "https://www.instagram.com/1711shashank/",
+            linkedin: "https://www.linkedin.com/in/1711shashank/"
+        },
+        {
             dp: require('../Assets/TeamImg/anamitra_sarkar.jpg'),
             name: "Anamitra Sarkar",
             designation: "CORDINATOR [Nirman]",
@@ -410,6 +473,15 @@ const team={
             dept: "CE, 4TH YEAR",
             facebook: "https://www.facebook.com/NayanKumar756?mibextid=ZbWKwL",
             instagram: "https://instagram.com/ig_brown_1113?igshid=ZDdkNTZiNTM=",
+            linkedin: ""
+        },
+        {
+            dp: require('../Assets/TeamImg/aritraa_sengupta.jpg'),
+            name: "Aritraa Sengupta",
+            designation: "COORDINATOR [Nirmaan]",
+            dept: "CE, 4TH YEAR",
+            facebook: "",
+            instagram: "",
             linkedin: ""
         },
     ],
