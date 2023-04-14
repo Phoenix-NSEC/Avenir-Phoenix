@@ -84,19 +84,6 @@
   transition: background 0.2s;
 }
 
-.cybr-btn-teams:hover {
-  --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 0.8%));
-  /* animation: glitchio 2s infinite; */
-}
-
-.cybr-btn-teams:active {
-  --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 0.6%));
-}
-
-.cybr-cliked:active {
-  --primary: hsl(260, 85%, calc(var(--primary-lightness, 50) * 0.6%));
-}
-
 .cybr-btn-teams:after,
 .cybr-btn-teams:before {
   content: '';

@@ -28,7 +28,7 @@ function Team() {
     <>
       <div className='main-wrapper-teams'>
         <div className="buttons-teams">
-          <button className={core && working && wing && dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={core && working && wing && dev ? 'glitchex-teams glitchy-effect' : 'cybr-btn-teams'} onClick={() => {
             showCore(true);
             showWorking(true);
             showWing(true);
@@ -37,7 +37,7 @@ function Team() {
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={core && !working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={core && !working && !wing && !dev ? 'glitchex-teams glitchy-effect' : 'cybr-btn-teams'} onClick={() => {
             showCore(true);
             showWorking(false);
             showWing(false);
@@ -46,7 +46,7 @@ function Team() {
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={!core && !working && !wing && dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={!core && !working && !wing && dev ? 'glitchex-teams glitchy-effect' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(false);
             showWing(false);
@@ -55,7 +55,7 @@ function Team() {
             <span class="cybr-btn-teams__glitch"></span>
             <span class="cybr-btn-teams__tag"></span>
           </button>
-          <button className={!core && working && !wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={!core && working && !wing && !dev ? 'glitchex-teams glitchy-effect' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(true);
             showWing(false);
@@ -65,7 +65,7 @@ function Team() {
             <span class="cybr-btn-teams__tag"></span>
           </button>
 
-          <button className={!core && !working && wing && !dev ? 'glitchex glitchex-teams' : 'cybr-btn-teams'} onClick={() => {
+          <button className={!core && !working && wing && !dev ? 'glitchex-teams glitchy-effect' : 'cybr-btn-teams'} onClick={() => {
             showCore(false);
             showWorking(false);
             showWing(true);
