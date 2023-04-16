@@ -84,7 +84,7 @@ function Home() {
           )}
         </div>
         <div className="text-white hidden lg:block lg:mt-4">
-          <img style={{width:'350px'}}
+          <img style={{width:'280px'}}
             src={logo}
           />
         </div>

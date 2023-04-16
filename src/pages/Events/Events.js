@@ -29,37 +29,37 @@ function Events() {
           <span class="cybr-btn__tag"></span>
         </button>
         <div className="btnGrp1 justify-center items-center mt-[30px] mx-auto grid md:grid-cols-4 grid-cols-2 md:gap-x-[50px] gap-x-[20px] md:gap-y-[25px] gap-y-[5px]">
-          <button class={color === "specialEventsNormal" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Cybernix) }}>
+          <button class={color === "specialEventsNormal" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(specialEventsNormal) }}>
             Flagship<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">01</span>
             <span class="cybr-btn__tag"></span>
           </button>
-          <button class={color === "Robonix" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Nirmaan) }}>
+          <button class={color === "Robonix" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Robonix) }}>
             Robonix<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">02</span>
             <span class="cybr-btn__tag"></span>
           </button>
-          <button class={color === "Nirmaan" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Eloquense) }}>
+          <button class={color === "Nirmaan" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Nirmaan) }}>
             Nirmaan<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">03</span>
             <span class="cybr-btn__tag"></span>
           </button>
-          <button class={color === "Illustro" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Robonix) }}>
+          <button class={color === "Illustro" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Illustro) }}>
             Illustro<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">04</span>
             <span class="cybr-btn__tag"></span>
           </button>
-          <button class={color === "specialEventsGaming" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Illustro) }}>
+          <button class={color === "specialEventsGaming" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(specialEventsGaming) }}>
             eSports<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">05</span>
             <span class="cybr-btn__tag"></span>
           </button>
-          <button class={color === "Cybernix" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(specialEventsNormal) }}>
+          <button class={color === "Cybernix" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Cybernix) }}>
             Cybernix<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">06</span>
             <span class="cybr-btn__tag"></span>
           </button>
-          <button class={color === "Eloquense" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(specialEventsGaming) }}>
+          <button class={color === "Eloquense" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(Eloquense) }}>
           Eloquense<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">07</span>
             <span class="cybr-btn__tag"></span>

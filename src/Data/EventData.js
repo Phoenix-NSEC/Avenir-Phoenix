@@ -1,45 +1,51 @@
 let all = [
     {
         wing: 'all',
-        icon: 'fa-brands fa-uikit fa-bounce',
-        title: "The UX-Factor ",
-        desc: "Are your hobbies more on the design side of CS - if yes, boy do we have the perfect match for you, literally! Prepare to put forward the best designed web page and walk away the champion the UX-Factor",
+        icon: 'fa-solid fa-chart-simple fa-bounce ',
+        title: "B-Plan",
+        desc: "For the innovators and entrepreneurs out there, we're presenting, for the first time ever, a grand opportunity to not just present your ideas and business plans in front of some of the most accomplished judges and guests, but to also walk away with potentially untold amounts in investments on top of the hefty prize pools that awaits you!",
     },
     {
         wing: 'all',
-        icon: 'fa-brands fa-stack-overflow fa-bounce',
-        title: "Stack Overflow",
-        desc: "Get your nerd glasses on and your fingers flexed because with event, we're bringing in the preppiest of code-challenges and you'll be tasked with solving them in the fastest possible time frame to prove your code-competency!",
+        icon: 'fa-solid fa-door-open fa-bounce ',
+        title: "Escape Room",
+        desc: "Put on your Guy  Fawkes masks as we partner up with industry giants to bring to you a grand Capture The Flag contest where you'll have to out fight and out last all obstacles thrown at you and figure out the best way forward to walk away the survivor of this Escape Room!",
     },
     {
         wing: 'all',
-        icon: 'fa-sharp fa-solid fa-code fa-bounce',
-        title: "Algo Samurai",
-        desc: "For the first time ever, we're presenting to you, \"Algo-Samurai\", an time-complexity based competition wherein you'll be judged not just on how you solve the problem at hand but how efficiently you do it - win big, and keep your Os logged is what we're going for here!",
+        icon: 'fa-solid fa-code fa-bounce ',
+        title: "InnovatriX",
+        desc: "Open call to all the innovators, hackers, builders and champions of development as we bring out this rendition of a problem statement based Hackathon spread out over all three days to build and break and build again and at the end of it all, win it big!",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-bug-slash fa-bounce ',
-        title: "Debug Dojo",
-        desc: "Get your bug sprays handy as we riddle you with the nastiest of code bugs that you, dear competitor will have to find out and remove in order to crowned the master of this Dojo.",
+        icon: 'fa-solid fa-globe fa-bounce ',
+        title: "TechTronix",
+        desc: "Avenir is bringing to you an opportunity to showcase your prototype ready designs and innovations from any domain in this grand tech expo for not just college students but also school students as everyone battles it out to win big and thrive on the bleeding edge of technology",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-compass-drafting fa-bounce ',
-        title: "CAD Clash",
-        desc: "CAD Clash is an exhilarating competition that will put the skills of the best designers and engineers to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of creative and innovative designers to design and create the most intricate CAD models.",
+        icon: 'fa-solid fa-futbol fa-bounce ',
+        title: "Robo Soccer",
+        desc: "Robo Soccer is a thrilling competition where teams of techno-wizards and machine-masters would pit their robotic creations against each other in a high-stakes game of soccer. The rules were simple - build the best robot you can, program it to perfection, and take the competition by storm.",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-shapes fa-bounce ',
-        title: "Build the blocks",
-        desc: "Build the Blocks is an exciting competition that will test the engineering and construction skills of the brightest minds in the field. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring builders to create the most innovative and creative structures using a set of building blocks.",
+        icon: 'fa-solid fa-arrow-right-arrow-left fa-bounce ',
+        title: "Line Follower/Maze Solver",
+        desc: "Line Follower/Maze Solver is an electrifying competition that promises to push the limits of technology and human ingenuity. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of tech-savvy enthusiasts to build and program robots that can navigate through a maze, following a designated path with precision and accuracy.",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-bridge fa-bounce ',
-        title: "Bridge-o-mania",
-        desc: "Bridge-o-mania is a thrilling competition that will put the engineering skills of the best designers and builders to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring engineers to design and build the most innovative and structurally-sound bridges.",
+        icon: 'fa-solid fa-robot fa-bounce ',
+        title: "Terra Rover",
+        desc: "Terra Rover is an epic competition that promises to take participants on a journey of exploration and discovery. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of intrepid engineers and robotics enthusiasts to design and build a rover capable of traversing the rugged terrains.",
+    },
+    {
+        wing: 'all',
+        icon: 'fa-solid fa-user-ninja fa-bounce ',
+        title: "Robo Kombat",
+        desc: "Robo War is a fierce and intense competition that will push the limits of technology and engineering to their very limits. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of skilled engineers and robotics enthusiasts to design and build combat robots capable of taking down their opponents in an all-out battle.",
     },
     {
         wing: 'all',
@@ -73,51 +79,75 @@ let all = [
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-futbol fa-bounce ',
-        title: "Robo Soccer",
-        desc: "Robo Soccer is a thrilling competition where teams of techno-wizards and machine-masters would pit their robotic creations against each other in a high-stakes game of soccer. The rules were simple - build the best robot you can, program it to perfection, and take the competition by storm.",
+        icon: 'fa-solid fa-compass-drafting fa-bounce ',
+        title: "CAD Clash",
+        desc: "CAD Clash is an exhilarating competition that will put the skills of the best designers and engineers to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of creative and innovative designers to design and create the most intricate CAD models.",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-arrow-right-arrow-left fa-bounce ',
-        title: "Line Follower/Maze Solver",
-        desc: "Line Follower/Maze Solver is an electrifying competition that promises to push the limits of technology and human ingenuity. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of tech-savvy enthusiasts to build and program robots that can navigate through a maze, following a designated path with precision and accuracy.",
+        icon: 'fa-solid fa-shapes fa-bounce ',
+        title: "City Planning",
+        desc: "Build the Blocks is an exciting competition that will test the engineering and construction skills of the brightest minds in the field. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring builders to create the most innovative and creative structures using a set of building blocks.",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-robot fa-bounce ',
-        title: "Terra Rover",
-        desc: "Terra Rover is an epic competition that promises to take participants on a journey of exploration and discovery. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of intrepid engineers and robotics enthusiasts to design and build a rover capable of traversing the rugged terrains.",
+        icon: 'fa-solid fa-bridge fa-bounce ',
+        title: "Bridge-o-mania",
+        desc: "Bridge-o-mania is a thrilling competition that will put the engineering skills of the best designers and builders to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring engineers to design and build the most innovative and structurally-sound bridges.",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-user-ninja fa-bounce ',
-        title: "Robo War",
-        desc: "Robo War is a fierce and intense competition that will push the limits of technology and engineering to their very limits. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of skilled engineers and robotics enthusiasts to design and build combat robots capable of taking down their opponents in an all-out battle.",
+        icon: 'fa-solid fa-camera fa-bounce ',
+        title: "Insta-Click!",
+        desc: " Insta-Click! is a fast-paced and exciting competition that will test the skills of the best photographers and visual artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring photographers to capture the most creative and visually stunning photos within a limited amount of time.",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-chart-simple fa-bounce ',
-        title: "B-Plan",
-        desc: "For the innovators and entrepreneurs out there, we're presenting, for the first time ever, a grand opportunity to not just present your ideas and business plans in front of some of the most accomplished judges and guests, but to also walk away with potentially untold amounts in investments on top of the hefty prize pools that awaits you!",
+        icon: 'fa-brands fa-instagram fa-bounce ',
+        title: "Reel Revolutionaries(R^2)",
+        desc: "Reel Revolutionaries(R^2) is an exhilarating competition that will put the skills of the best social media creators to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring influencers to create the most captivating and engaging reels within a limited amount of time.",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-door-open fa-bounce ',
-        title: "Escape Room",
-        desc: "Put on your Guy  Fawkes masks as we partner up with industry giants to bring to you a grand Capture The Flag contest where you'll have to out fight and out last all obstacles thrown at you and figure out the best way forward to walk away the survivor of this Escape Room!",
+        icon: 'fa-solid fa-recycle fa-bounce ',
+        title: "Paper trends",
+        desc: "Paper Trends is a fun and creative event that will put the skills of the best designers and artists to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams to create innovative and eye-catching art pieces using only paper as the primary medium. Participants can let their creativity run wild and experiment with different techniques to create unique and stunning designs",
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-code fa-bounce ',
-        title: "Code Coven",
-        desc: "Open call to all the innovators, hackers, builders and champions of development as we bring out this rendition of a problem statement based Hackathon spread out over all three days to build and break and build again and at the end of it all, win it big!",
+        icon: 'fa-solid fa-paintbrush fa-bounce ',
+        title: "Paint Panther",
+        desc: "Paint Panther is a vibrant and colorful competition that will unleash the creativity of the most talented artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artistic individuals to paint and decorate an assigned canvas with the most imaginative and visually appealing artwork. With a limited amount of time, participants must use their artistic skills to bring the canvas to life and impress the judges with their colorful and expressive creations."
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-globe fa-bounce ',
-        title: "TechTronix",
-        desc: "Avenir is bringing to you an opportunity to showcase your prototype ready designs and innovations from any domain in this grand tech expo for not just college students but also school students as everyone battles it out to win big and thrive on the bleeding edge of technology",
+        icon: 'fa-solid fa-pen-nib fa-bounce ',
+        title: "Art in the Machine",
+        desc: "Art in the Machine is a one-of-a-kind competition that blends the worlds of art and technology. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artists and tech enthusiasts to create the most innovative and visually stunning art pieces.",
+    },
+    {
+        wing: 'all',
+        icon: 'fa-brands fa-uikit fa-bounce',
+        title: "The UX-Factor ",
+        desc: "Are your hobbies more on the design side of CS - if yes, boy do we have the perfect match for you, literally! Prepare to put forward the best designed web page and walk away the champion the UX-Factor",
+    },
+    {
+        wing: 'all',
+        icon: 'fa-brands fa-stack-overflow fa-bounce',
+        title: "Stack Overflow",
+        desc: "Get your nerd glasses on and your fingers flexed because with event, we're bringing in the preppiest of code-challenges and you'll be tasked with solving them in the fastest possible time frame to prove your code-competency!",
+    },
+    {
+        wing: 'all',
+        icon: 'fa-sharp fa-solid fa-code fa-bounce',
+        title: "Algo Samurai",
+        desc: "For the first time ever, we're presenting to you, \"Algo-Samurai\", an time-complexity based competition wherein you'll be judged not just on how you solve the problem at hand but how efficiently you do it - win big, and keep your Os logged is what we're going for here!",
+    },
+    {
+        wing: 'all',
+        icon: 'fa-solid fa-bug-slash fa-bounce ',
+        title: "Debug Dojo",
+        desc: "Get your bug sprays handy as we riddle you with the nastiest of code bugs that you, dear competitor will have to find out and remove in order to crowned the master of this Dojo.",
     },
     {
         wing: 'all',
@@ -145,24 +175,6 @@ let all = [
     },
     {
         wing: 'all',
-        icon: 'fa-solid fa-camera fa-bounce ',
-        title: "Insta-Click!",
-        desc: " Insta-Click! is a fast-paced and exciting competition that will test the skills of the best photographers and visual artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring photographers to capture the most creative and visually stunning photos within a limited amount of time.",
-    },
-    {
-        wing: 'all',
-        icon: 'fa-brands fa-instagram fa-bounce ',
-        title: "Reel Revolutionaries(R^2)",
-        desc: "Reel Revolutionaries(R^2) is an exhilarating competition that will put the skills of the best social media creators to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring influencers to create the most captivating and engaging reels within a limited amount of time.",
-    },
-    {
-        wing: 'all',
-        icon: 'fa-solid fa-pen-nib fa-bounce ',
-        title: "Art in the Machine",
-        desc: "Art in the Machine is a one-of-a-kind competition that blends the worlds of art and technology. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artists and tech enthusiasts to create the most innovative and visually stunning art pieces.",
-    },
-    {
-        wing: 'all',
         icon: 'fa-solid fa-rectangle-ad fa-bounce ',
         title: "ADverts",
         desc: "ADverts is a fun and quirky event that will bring out the creativity in participants. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams to create the most hilarious and attention-grabbing advertisements for a given product.",
@@ -172,18 +184,6 @@ let all = [
         icon: 'fa-solid fa-coins fa-bounce ',
         title: "Treasure Hunt",
         desc: "Treasure Hunt is a thrilling and adventurous event that will put the skills of participants to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams to solve a series of clues and riddles, leading them to hidden treasures and prizes. The race against time and other teams will keep you on your toes, but the thrill of victory will make it all worth it. So grab your team and get ready to embark on a wild adventure in search of treasure!",
-    },
-    {
-        wing: 'all',
-        icon: 'fa-solid fa-paintbrush fa-bounce ',
-        title: "Paint Panther",
-        desc: "Paint Panther is a vibrant and colorful competition that will unleash the creativity of the most talented artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artistic individuals to paint and decorate an assigned canvas with the most imaginative and visually appealing artwork. With a limited amount of time, participants must use their artistic skills to bring the canvas to life and impress the judges with their colorful and expressive creations."
-    },
-    {
-        wing: 'all',
-        icon: 'fa-solid fa-recycle fa-bounce ',
-        title: "Paper trends",
-        desc: "Paper Trends is a fun and creative event that will put the skills of the best designers and artists to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams to create innovative and eye-catching art pieces using only paper as the primary medium. Participants can let their creativity run wild and experiment with different techniques to create unique and stunning designs",
     },
     {
         wing: 'all',
@@ -235,7 +235,7 @@ let Nirmaan = [
     {
         wing: 'Nirmaan',
         icon: 'fa-solid fa-shapes fa-bounce ',
-        title: "Build the blocks",
+        title: "City Planning",
         desc: "Build the Blocks is an exciting competition that will test the engineering and construction skills of the brightest minds in the field. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring builders to create the most innovative and creative structures using a set of building blocks.",
     },
     {
@@ -301,7 +301,7 @@ let Robonix = [
     {
         wing: 'Robonix',
         icon: 'fa-solid fa-user-ninja fa-bounce ',
-        title: "Robo War",
+        title: "Robo Kombat",
         desc: "Robo War is a fierce and intense competition that will push the limits of technology and engineering to their very limits. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of skilled engineers and robotics enthusiasts to design and build combat robots capable of taking down their opponents in an all-out battle.",
     }
 ]
@@ -322,7 +322,7 @@ let specialEventsNormal = [
     {
         wing: 'specialEventsNormal',
         icon: 'fa-solid fa-code fa-bounce ',
-        title: "Code Coven",
+        title: "InnovatriX",
         desc: "Open call to all the innovators, hackers, builders and champions of development as we bring out this rendition of a problem statement based Hackathon spread out over all three days to build and break and build again and at the end of it all, win it big!",
     },
     {
@@ -374,11 +374,23 @@ let Illustro = [
         desc: "Reel Revolutionaries(R^2) is an exhilarating competition that will put the skills of the best social media creators to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring influencers to create the most captivating and engaging reels within a limited amount of time.",
     },
     {
-        wing: 'Illustro',
+        wing: 'all',
+        icon: 'fa-solid fa-recycle fa-bounce ',
+        title: "Paper trends",
+        desc: "Paper Trends is a fun and creative event that will put the skills of the best designers and artists to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams to create innovative and eye-catching art pieces using only paper as the primary medium. Participants can let their creativity run wild and experiment with different techniques to create unique and stunning designs",
+    },
+    {
+        wing: 'all',
+        icon: 'fa-solid fa-paintbrush fa-bounce ',
+        title: "Paint Panther",
+        desc: "Paint Panther is a vibrant and colorful competition that will unleash the creativity of the most talented artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artistic individuals to paint and decorate an assigned canvas with the most imaginative and visually appealing artwork. With a limited amount of time, participants must use their artistic skills to bring the canvas to life and impress the judges with their colorful and expressive creations."
+    },
+    {
+        wing: 'all',
         icon: 'fa-solid fa-pen-nib fa-bounce ',
         title: "Art in the Machine",
         desc: "Art in the Machine is a one-of-a-kind competition that blends the worlds of art and technology. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artists and tech enthusiasts to create the most innovative and visually stunning art pieces.",
-    }
+    },
 ]
 
 let funEvents = [
@@ -393,18 +405,6 @@ let funEvents = [
         icon: 'fa-solid fa-coins fa-bounce ',
         title: "Treasure Hunt",
         desc: "Treasure Hunt is a thrilling and adventurous event that will put the skills of participants to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams to solve a series of clues and riddles, leading them to hidden treasures and prizes. The race against time and other teams will keep you on your toes, but the thrill of victory will make it all worth it. So grab your team and get ready to embark on a wild adventure in search of treasure!",
-    },
-    {
-        wing: 'funEvents',
-        icon: 'fa-solid fa-paintbrush fa-bounce ',
-        title: "Paint Panther",
-        desc: "Paint Panther is a vibrant and colorful competition that will unleash the creativity of the most talented artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artistic individuals to paint and decorate an assigned canvas with the most imaginative and visually appealing artwork. With a limited amount of time, participants must use their artistic skills to bring the canvas to life and impress the judges with their colorful and expressive creations."
-    },
-    {
-        wing: 'funEvents',
-        icon: 'fa-solid fa-recycle fa-bounce ',
-        title: "Paper trends",
-        desc: "Paper Trends is a fun and creative event that will put the skills of the best designers and artists to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams to create innovative and eye-catching art pieces using only paper as the primary medium. Participants can let their creativity run wild and experiment with different techniques to create unique and stunning designs",
     },
     {
         wing: 'funEvents',

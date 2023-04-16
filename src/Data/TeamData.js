@@ -279,7 +279,7 @@ const team={
         },
         {
             dp: require('../Assets/TeamImg/sovandeb_paul.jpg'),
-            name: "Sovandeep Paul",
+            name: "Sovandeb Paul",
             designation: "COORDINATOR [Robonix]",
             dept: "AEIE, 4TH YEAR",
             facebook: "https://www.facebook.com/sovandeb.paul.96?mibextid=ZbWKwL",
