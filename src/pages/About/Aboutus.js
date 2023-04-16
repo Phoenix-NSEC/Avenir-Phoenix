@@ -73,7 +73,6 @@ function Aboutus() {
                 action="https://formspree.io/f/xpzeokzr"
                 method="POST"
                 className="flex flex-col space-y-4"
-                // onSubmit={handleSubmitForm}
               >
                 <div className="inputbox">
                   <input
@@ -101,8 +100,6 @@ function Aboutus() {
                 </div>
                 <div className="inputbox " style={{ marginBottom: "20px" }}>
                   <input
-                    // style={{ background: "none" }}
-                    // placeholder="Enter Message"
                     rows="4"
                     onChange={(event) => setMessage(event.target.value)}
                     value={message}
@@ -112,14 +109,7 @@ function Aboutus() {
                   />
                   <span>Your Message</span>
                   <i></i>
-
-                  {/* <button className=" mt-4 inline-block self-start bg-blue-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
-                    Send Message
-                  </button> */}
                 </div>
-                {/* <button className=" ml-[38px] mt-[20px] inline-block self-start bg-blue-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
-                  Send Message
-                </button> */}
 
                 <button className="cybr-btn w-[300px] mt-4">
                   Submit<span aria-hidden>_</span>
