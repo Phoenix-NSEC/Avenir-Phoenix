@@ -44,7 +44,7 @@ function Navbar() {
           }`}
       >
         <ul className="flex flex-col mb-[140px] md:mb-[0px] justify-center items-center md:flex-row gap-10 font-bold py-3 text-[1.4rem] md:text-[.5rem] lg:text-[.9rem] text-white font-orbitron">
-          <div className="flex flex-row justify-center h-full relative top-[100px]">
+          <div className="flex flex-row justify-center h-full relative top-[265px]">
             <li className="md:hidden"
             >
               <a href='https://phoenixnsec.in/' target="_blank"><img src={logo} alt="logo of PHOENIX" width="65px" height="10px" className="border-r-2 hover:cursor-pointer pr-6" /></a>
