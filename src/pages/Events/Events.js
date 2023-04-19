@@ -28,7 +28,7 @@ function Events() {
           <span class="cybr-btn__glitch">01</span>
           <span class="cybr-btn__tag"></span>
         </button>
-        <div className="btnGrp1 justify-center items-center mt-[30px] mx-auto grid md:grid-cols-4 grid-cols-2 md:gap-x-[50px] gap-x-[20px] md:gap-y-[25px] gap-y-[5px]">
+        <div className="btnGrp1 justify-center items-center md:mt-[30px] mx-auto grid md:grid-cols-4 grid-cols-2 md:gap-x-[50px] gap-x-[20px] md:gap-y-[25px] gap-y-[5px]">
           <button class={color === "specialEventsNormal" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(specialEventsNormal) }}>
             Flagship<span aria-hidden>_</span>
             <span class="cybr-btn__glitch">01</span>
