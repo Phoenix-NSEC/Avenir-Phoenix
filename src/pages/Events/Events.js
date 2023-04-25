@@ -22,7 +22,7 @@ function Events() {
   return (
 
     <div className='container flex flex-col items-center max-w-full justify-center min-h-screen'>
-      <div className='eventPage lg:mt-[100px] flex flex-col justify-center items-center'>
+      <div className='eventPage lg:mt-[100px] mt-[20px] flex flex-col justify-center items-center'>
         <button class={color === "all" ? "glitchy-effect" : "cybr-btn"} onClick={() => { handleData(all) }}>
           All events<span aria-hidden>_</span>
           <span class="cybr-btn__glitch">01</span>
@@ -75,7 +75,7 @@ function Events() {
             data.map((e, index) => {
               return (
                 <div key={index} className='flex flex-col justify-center items-center'>
-                  <ZigboxOne title={e.title} desc={e.desc} icon={e.icon} />
+                  <ZigboxOne title={e.title} desc={e.desc} icon={e.icon} rulebook={e.rulebook} register={e.register} />
                 </div>
               )
             })
