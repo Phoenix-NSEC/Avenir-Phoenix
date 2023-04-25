@@ -56,7 +56,7 @@ function Home() {
   return (
     <div className={`flex flex-col md:min-h-screen min-h-[100vh] sub-body`} style={{ backgroundImage: `url(${bgGif})`, backgroundSize: "cover" }}>
       <div className="kunal min-h-screen"></div>
-      <div className="flex relative md:right-[50px] md:justify-around md:items-end items-center justify-center md:min-h-[75vh] min-h-[100vh] max-w-full md:w-50 z-10">
+      <div className="flex md:flex-row relative md:right-[50px] flex-col-reverse md:justify-around md:items-end items-center justify-center md:min-h-[75vh] min-h-[100vh] max-w-full md:w-50 z-10">
         <div className="flex flex-col justify-evenly relative md:left-[100px] md:top-[50px] lg:items-start items-center ">
           <div className="name pb-1 md:pl-5">
             <h1 className="glitch md:text-[150px] text-[90px] text-[#FF5757] z-10">
@@ -83,9 +83,10 @@ function Home() {
             </p>
           )}
         </div>
-        <div className="text-white hidden lg:block lg:mt-4">
-          <img style={{width:'280px'}}
+        <div className="text-white pb-[30px] lg:pb-0 lg:block lg:mt-4">
+          <img className="lg:w-[280px] w-[120px]"
             src={logo}
+            alt="logo"
           />
         </div>
       </div>
