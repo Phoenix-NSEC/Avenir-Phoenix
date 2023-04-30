@@ -102,11 +102,11 @@ const ZigboxOne = (props) => {
                                 <p className='font-chakra md:hidden text-sm ease-in-out duration-300 mt-3'>{props.desc}</p>
                             </div>
                             <div className="md:mt-6 mt-4 static flex md:flex-col hover:block btn-gr">
-                                <button className="cybr-btn z-20 mr-5"><a href={props.register} target='_blank'>Register</a><span aria-hidden>_</span>
+                                <button className="cybr-btn z-20 mr-5" onClick={()=>window.open(`${props.register}`,'_blank')}>Register<span aria-hidden>_</span>
                                     <span className="cybr-btn__glitch">01</span>
                                     <span className="cybr-btn__tag"></span>
                                 </button>
-                                <button className="cybr-btn btn2 md:mt-4 z-20"><a href={props.rulebook} target='_blank'>Rulebook</a><span aria-hidden>_</span>
+                                <button className="cybr-btn btn2 md:mt-4 z-20" onClick={()=>window.open(`${props.rulebook}`,'_blank')}>Rulebook<span aria-hidden>_</span>
                                     <span className="cybr-btn__glitch">01</span>
                                     <span className="cybr-btn__tag"></span>
                                 </button>
