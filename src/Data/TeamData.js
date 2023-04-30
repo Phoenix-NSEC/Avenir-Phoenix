@@ -125,7 +125,16 @@ const team={
             facebook: "",
             instagram: "https://instagram.com/typhlosion52?igshid=ZDdkNTZiNTM=",
             linkedin: ""
-        }
+        },
+        {
+            dp: require('../Assets/TeamImg/anamitra_sarkar.jpg'),
+            name: "Anamitra Sarkar",
+            designation: "Content & Marketing Head",
+            dept: "CE, 4TH YEAR",
+            facebook: "https://www.facebook.com/aksh.sarkar.167",
+            instagram: "https://www.instagram.com/lone_believer/",
+            linkedin: "https://in.linkedin.com/in/anamitra-sarkar"
+        },
 
     ],
     dev:[
@@ -377,6 +386,15 @@ const team={
             linkedin: "https://www.linkedin.com/in/samrat-mitra-1b8399212/"
         },
         {
+            dp: require('../Assets/TeamImg/arunima_maiti.jpg'),
+            name: "Arunima maiti",
+            designation: "CORDINATOR [Robonix]",
+            dept: "ECE, 4TH YEAR",
+            facebook: "https://www.facebook.com/arunima.maiti.58?mibextid=ZbWKwL",
+            instagram: "https://instagram.com/instarunima__?igshid=ZDdkNTZiNTM=",
+            linkedin: "https://www.linkedin.com/in/arunima-maiti-5a6183191"
+        },
+        {
             dp: require('../Assets/TeamImg/deblina_chattopadhyay.jpg'),
             name: "Deblina Chattopadhyay",
             designation: "COORDINATOR [Eloquense]",
@@ -393,6 +411,15 @@ const team={
             facebook: "https://www.facebook.com/faruque.aziz.969?mibextid=ZbWKwL",
             instagram: "https://instagram.com/aziz_faruque?igshid=YmMyMTA2M2Y=",
             linkedin: "https://www.linkedin.com/in/faruque-aziz-428828169"
+        },
+        {
+            dp: require('../Assets/TeamImg/sukanya_ghosh.jpg'),
+            name: "Sukanya Ghosh",
+            designation: "COORDINATOR [Eloquense]",
+            dept: "ECE, 4TH YEAR",
+            facebook: "",
+            instagram: "https://www.instagram.com/sukxanya/",
+            linkedin: "https://www.linkedin.com/in/sukanya-ghosh"
         },
         {
             dp: require('../Assets/TeamImg/suvadeep_maity.jpg'),
