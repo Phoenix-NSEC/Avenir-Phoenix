@@ -132,7 +132,7 @@ let all = [
         icon: 'fa-solid fa-camera fa-bounce ',
         title: "Insta-Click!",
         desc: " Insta-Click! is a fast-paced and exciting competition that will test the skills of the best photographers and visual artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring photographers to capture the most creative and visually stunning photos within a limited amount of time.",
-        rulebook:'',
+        rulebook:'https://drive.google.com/file/d/1YS9Zy5jqUnQ1qiVEzE-skoUU-fthA11s/view?usp=sharing',
         register: 'https://bit.ly/ILLUSTRO_AVR23_FORM'
     },
     {
@@ -140,7 +140,7 @@ let all = [
         icon: 'fa-brands fa-instagram fa-bounce ',
         title: "Reel Revolutionaries(R^2)",
         desc: "Reel Revolutionaries(R^2) is an exhilarating competition that will put the skills of the best social media creators to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring influencers to create the most captivating and engaging reels within a limited amount of time.",
-        rulebook:'',
+        rulebook:'https://drive.google.com/file/d/1d2dHklpNMEVCaPjTsVg2HXKCUZxrh8G4/view?usp=sharing',
         register: 'https://bit.ly/ILLUSTRO_AVR23_FORM'
     },
     {
@@ -164,7 +164,7 @@ let all = [
         icon: 'fa-solid fa-pen-nib fa-bounce ',
         title: "Art in the Machine",
         desc: "Art in the Machine is a one-of-a-kind competition that blends the worlds of art and technology. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artists and tech enthusiasts to create the most innovative and visually stunning art pieces.",
-        rulebook:'',
+        rulebook:'https://drive.google.com/file/d/1vuvgCUWxkXjvNizMmbz4U_YIfaXafQVt/view?usp=sharing',
         register: 'https://bit.ly/ILLUSTRO_AVR23_FORM'
     },
     {
@@ -196,7 +196,7 @@ let all = [
         icon: 'fa-solid fa-bug-slash fa-bounce ',
         title: "Debug Dojo",
         desc: "Get your bug sprays handy as we riddle you with the nastiest of code bugs that you, dear competitor will have to find out and remove in order to crowned the master of this Dojo.",
-        rulebook:'https://drive.google.com/file/d/1OBftuoMd_Bx9Gjlev5IKb9a-dQbZ-2_B/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1vDqnTQzizFcbL21p7rV93gD7zKIf6MLp/view?usp=sharing',
         register: 'https://bit.ly/CYBERNIX_AVR23_FORM'
     },
     {
@@ -204,7 +204,7 @@ let all = [
         icon: 'fa-solid fa-gun fa-bounce ',
         title: "COD Mobile",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1I-v4Hc3hEERFOZRcQpRyZWDWz_Q0PrpE/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1CAYNOSOiZiJfYvyk4aUAFA1krtDRUTT9/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
     {
@@ -212,7 +212,7 @@ let all = [
         icon: 'fa-solid fa-futbol fa-bounce ',
         title: "eFootball(PES) Mobile",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1xclSSNYt_9RgKkxiBq7MaXnRJ9OXBWTP/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1RmkOUhjwFUvH8xzlMJuv3iiv_1oDc4uw/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
     {
@@ -220,7 +220,7 @@ let all = [
         icon: 'fa-solid fa-gamepad fa-bounce ',
         title: "CSGO",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1qn3vkx0ITzBhZh9WmGPE5kkmQhkQ4rEU/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/121UAOYvbTNNn2tj-d9BO72IytBVDS_Wl/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
     {
@@ -228,7 +228,7 @@ let all = [
         icon: 'fa-solid fa-person-rifle fa-bounce ',
         title: "Valorant",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1V6C_cvE84jfd_KtoMr153TkaeoPSyLVS/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1p8kBCZy5KGj1Yx10F3CFWXTHxjmhkIIy/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
     {
@@ -294,7 +294,7 @@ let Cybernix = [
         icon: 'fa-solid fa-bug-slash fa-bounce ',
         title: "Debug Dojo",
         desc: "Get your bug sprays handy as we riddle you with the nastiest of code bugs that you, dear competitor will have to find out and remove in order to crowned the master of this Dojo.",
-        rulebook:'https://drive.google.com/file/d/1OBftuoMd_Bx9Gjlev5IKb9a-dQbZ-2_B/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1vDqnTQzizFcbL21p7rV93gD7zKIf6MLp/view?usp=sharing',
         register: 'https://bit.ly/CYBERNIX_AVR23_FORM'
     }
 ]
@@ -445,7 +445,7 @@ let specialEventsGaming = [
         icon: 'fa-solid fa-gun fa-bounce ',
         title: "COD Mobile",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1I-v4Hc3hEERFOZRcQpRyZWDWz_Q0PrpE/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1CAYNOSOiZiJfYvyk4aUAFA1krtDRUTT9/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
     {
@@ -453,7 +453,7 @@ let specialEventsGaming = [
         icon: 'fa-solid fa-futbol fa-bounce ',
         title: "eFootball(PES) Mobile",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1xclSSNYt_9RgKkxiBq7MaXnRJ9OXBWTP/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1RmkOUhjwFUvH8xzlMJuv3iiv_1oDc4uw/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
     {
@@ -461,7 +461,7 @@ let specialEventsGaming = [
         icon: 'fa-solid fa-gamepad fa-bounce ',
         title: "CSGO",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1qn3vkx0ITzBhZh9WmGPE5kkmQhkQ4rEU/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/121UAOYvbTNNn2tj-d9BO72IytBVDS_Wl/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
     {
@@ -469,7 +469,7 @@ let specialEventsGaming = [
         icon: 'fa-solid fa-person-rifle fa-bounce ',
         title: "Valorant",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
-        rulebook:'https://drive.google.com/file/d/1V6C_cvE84jfd_KtoMr153TkaeoPSyLVS/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1p8kBCZy5KGj1Yx10F3CFWXTHxjmhkIIy/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     }
 ]
@@ -480,7 +480,7 @@ let Illustro = [
         icon: 'fa-solid fa-camera fa-bounce ',
         title: "Insta-Click!",
         desc: " Insta-Click! is a fast-paced and exciting competition that will test the skills of the best photographers and visual artists. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring photographers to capture the most creative and visually stunning photos within a limited amount of time.",
-        rulebook:'',
+        rulebook:'https://drive.google.com/file/d/1YS9Zy5jqUnQ1qiVEzE-skoUU-fthA11s/view?usp=sharing',
         register: 'https://bit.ly/ILLUSTRO_AVR23_FORM'
     },
     {
@@ -488,7 +488,7 @@ let Illustro = [
         icon: 'fa-brands fa-instagram fa-bounce ',
         title: "Reel Revolutionaries(R^2)",
         desc: "Reel Revolutionaries(R^2) is an exhilarating competition that will put the skills of the best social media creators to the test. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of aspiring influencers to create the most captivating and engaging reels within a limited amount of time.",
-        rulebook:'',
+        rulebook:'https://drive.google.com/file/d/1d2dHklpNMEVCaPjTsVg2HXKCUZxrh8G4/view?usp=sharing',
         register: 'https://bit.ly/ILLUSTRO_AVR23_FORM'
     },
     {
@@ -512,7 +512,7 @@ let Illustro = [
         icon: 'fa-solid fa-pen-nib fa-bounce ',
         title: "Art in the Machine",
         desc: "Art in the Machine is a one-of-a-kind competition that blends the worlds of art and technology. As part of Avenir '23, the annual tech fest of NSEC, this event will challenge teams of artists and tech enthusiasts to create the most innovative and visually stunning art pieces.",
-        rulebook:'',
+        rulebook:'https://drive.google.com/file/d/1vuvgCUWxkXjvNizMmbz4U_YIfaXafQVt/view?usp=sharing',
         register: 'https://bit.ly/ILLUSTRO_AVR23_FORM'
     },
 ]
