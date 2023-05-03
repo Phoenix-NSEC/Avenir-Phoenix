@@ -57,7 +57,7 @@ const team={
         {
             dp: require('../Assets/TeamImg/ankita_hazra.jpeg'),
             name: "Ankita Hazra",
-            designation: "Events & Promotion Headonvener",
+            designation: "Events & Promotion Head",
             dept: "ECE, 4TH YEAR",
             facebook: "https://www.facebook.com/ankita.hazra.397",
             instagram: "https://www.instagram.com/ankyyy_1906/",
