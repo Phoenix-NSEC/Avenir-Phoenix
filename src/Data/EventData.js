@@ -203,7 +203,7 @@ let all = [
         wing: 'all',
         icon: 'fa-solid fa-gun fa-bounce ',
         title: "COD Mobile",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Attention all Call of Duty fans! Get ready for an adrenaline-fueled gaming experience like no other. Join us for an intense Call of Duty Mobile competition where you can show off your tactical skills and battle against other passionate players. This event is open to all mobile gamers who love the thrill of first-person shooter games and want to compete for the ultimate prize. Take on your opponents in intense team battles and prove that you have what it takes to be the champion. Don't miss this chance to showcase your skills and win exciting prizes. Register now and prepare for battle!",
         rulebook:'https://drive.google.com/file/d/1CAYNOSOiZiJfYvyk4aUAFA1krtDRUTT9/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
@@ -211,7 +211,7 @@ let all = [
         wing: 'all',
         icon: 'fa-solid fa-futbol fa-bounce ',
         title: "eFootball(PES) Mobile",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Get ready to showcase your skills on the virtual pitch! Join us for an electrifying eFootball Mobile competition where you can prove that you are the ultimate champion. This event is open to all mobile gamers who love the thrill of soccer and want to compete against other passionate players. Show off your strategic gameplay and lightning-fast reflexes to outsmart your opponents and score the winning goal. Don't miss this opportunity to be a part of the action and win exciting prizes. Register now and get ready to kick off the competition!",
         rulebook:'https://drive.google.com/file/d/1RmkOUhjwFUvH8xzlMJuv3iiv_1oDc4uw/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
@@ -219,7 +219,7 @@ let all = [
         wing: 'all',
         icon: 'fa-solid fa-gamepad fa-bounce ',
         title: "CSGO",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Are you ready for the ultimate Counter-Strike: Global Offensive (CS:GO) competition? Join us for an exhilarating gaming experience where precision and teamwork are essential. This event is open to all gamers who love the thrill of first-person shooter games and want to showcase their strategic abilities. Take on your opponents in intense battles and prove that you have what it takes to be the CS:GO champion. Collaborate with your team and use your tactical skills to outmaneuver your opponents and secure the win. Don't miss this opportunity to be a part of the action and win exciting prizes. Register now and get ready to take on the challenge!",
         rulebook:'https://drive.google.com/file/d/121UAOYvbTNNn2tj-d9BO72IytBVDS_Wl/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
@@ -227,7 +227,7 @@ let all = [
         wing: 'all',
         icon: 'fa-solid fa-person-rifle fa-bounce ',
         title: "Valorant",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Get ready to enter the world of Valorant, where precision and strategy are the keys to success. Join us for an action-packed Valorant competition where you can test your skills against other passionate players. This event is open to all gamers who love the thrill of first-person shooter games and want to showcase their tactical abilities. Strategize with your team and outsmart your opponents to claim victory and earn exciting prizes. Don't miss this opportunity to be a part of the action and prove that you have what it takes to be the ultimate Valorant champion. Register now and prepare to show off your skills on the virtual battlefield!",
         rulebook:'https://drive.google.com/file/d/1p8kBCZy5KGj1Yx10F3CFWXTHxjmhkIIy/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
@@ -444,7 +444,7 @@ let specialEventsGaming = [
         wing: 'specialEventsGaming',
         icon: 'fa-solid fa-gun fa-bounce ',
         title: "COD Mobile",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Attention all Call of Duty fans! Get ready for an adrenaline-fueled gaming experience like no other. Join us for an intense Call of Duty Mobile competition where you can show off your tactical skills and battle against other passionate players. This event is open to all mobile gamers who love the thrill of first-person shooter games and want to compete for the ultimate prize. Take on your opponents in intense team battles and prove that you have what it takes to be the champion. Don't miss this chance to showcase your skills and win exciting prizes. Register now and prepare for battle!",
         rulebook:'https://drive.google.com/file/d/1CAYNOSOiZiJfYvyk4aUAFA1krtDRUTT9/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
@@ -452,7 +452,7 @@ let specialEventsGaming = [
         wing: 'specialEventsGaming',
         icon: 'fa-solid fa-futbol fa-bounce ',
         title: "eFootball(PES) Mobile",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Get ready to showcase your skills on the virtual pitch! Join us for an electrifying eFootball Mobile competition where you can prove that you are the ultimate champion. This event is open to all mobile gamers who love the thrill of soccer and want to compete against other passionate players. Show off your strategic gameplay and lightning-fast reflexes to outsmart your opponents and score the winning goal. Don't miss this opportunity to be a part of the action and win exciting prizes. Register now and get ready to kick off the competition!",
         rulebook:'https://drive.google.com/file/d/1RmkOUhjwFUvH8xzlMJuv3iiv_1oDc4uw/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
@@ -460,7 +460,7 @@ let specialEventsGaming = [
         wing: 'specialEventsGaming',
         icon: 'fa-solid fa-gamepad fa-bounce ',
         title: "CSGO",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Are you ready for the ultimate Counter-Strike: Global Offensive (CS:GO) competition? Join us for an exhilarating gaming experience where precision and teamwork are essential. This event is open to all gamers who love the thrill of first-person shooter games and want to showcase their strategic abilities. Take on your opponents in intense battles and prove that you have what it takes to be the CS:GO champion. Collaborate with your team and use your tactical skills to outmaneuver your opponents and secure the win. Don't miss this opportunity to be a part of the action and win exciting prizes. Register now and get ready to take on the challenge!",
         rulebook:'https://drive.google.com/file/d/121UAOYvbTNNn2tj-d9BO72IytBVDS_Wl/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     },
@@ -468,7 +468,7 @@ let specialEventsGaming = [
         wing: 'specialEventsGaming',
         icon: 'fa-solid fa-person-rifle fa-bounce ',
         title: "Valorant",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequatur minus ratione quis sit asperiores reprehenderit assumenda doloribus repellat soluta est maiores autem qui officiis quo, tempora facere sint. Suscipit, atque. Possimus atque nobis tempora?",
+        desc: "Get ready to enter the world of Valorant, where precision and strategy are the keys to success. Join us for an action-packed Valorant competition where you can test your skills against other passionate players. This event is open to all gamers who love the thrill of first-person shooter games and want to showcase their tactical abilities. Strategize with your team and outsmart your opponents to claim victory and earn exciting prizes. Don't miss this opportunity to be a part of the action and prove that you have what it takes to be the ultimate Valorant champion. Register now and prepare to show off your skills on the virtual battlefield!",
         rulebook:'https://drive.google.com/file/d/1p8kBCZy5KGj1Yx10F3CFWXTHxjmhkIIy/view?usp=sharing',
         register: 'https://bit.ly/ESPORTS_AVR23_FORM'
     }
