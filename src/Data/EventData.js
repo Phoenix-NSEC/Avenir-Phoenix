@@ -10,7 +10,7 @@ let all = [
     {
         wing: 'all',
         icon: 'fa-solid fa-door-open fa-bounce ',
-        title: "Escape Room",
+        title: "CTF [Escape Room]",
         desc: "Put on your Guy  Fawkes masks as we partner up with industry giants to bring to you a grand Capture The Flag contest where you'll have to out fight and out last all obstacles thrown at you and figure out the best way forward to walk away the survivor of this Escape Room!",
         rulebook:'https://drive.google.com/file/d/1yeAoVWApF9IflkUZ8d-f58CeI2K4fR3C/view?usp=sharing',
         register: 'https://bit.ly/CTF_AVR23'
@@ -18,7 +18,7 @@ let all = [
     {
         wing: 'all',
         icon: 'fa-solid fa-code fa-bounce ',
-        title: "InnovatriX",
+        title: "Hackathon [InnovatriX]",
         desc: "Open call to all the innovators, hackers, builders and champions of development as we bring out this rendition of a problem statement based Hackathon spread out over all three days to build and break and build again and at the end of it all, win it big!",
         rulebook:'https://drive.google.com/file/d/1q3Hf6H5Fjd_QqUSn9wwgW3q7_RjRVV75/view?usp=sharing',
         register: 'https://bit.ly/InnovatriX_AVR23_FORM'
@@ -26,7 +26,7 @@ let all = [
     {
         wing: 'all',
         icon: 'fa-solid fa-globe fa-bounce ',
-        title: "TechTronix",
+        title: "Tech Expo [TechTronix]",
         desc: "Avenir is bringing to you an opportunity to showcase your prototype ready designs and innovations from any domain in this grand tech expo for not just college students but also school students as everyone battles it out to win big and thrive on the bleeding edge of technology",
         rulebook:'https://drive.google.com/file/d/1RJJ0qSCIlv0onLGq0T8MVSv1IlKbXqbz/view?usp=sharing',
         register: 'https://bit.ly/TechExpo_AVR23'
@@ -416,7 +416,7 @@ let specialEventsNormal = [
     {
         wing: 'specialEventsNormal',
         icon: 'fa-solid fa-door-open fa-bounce ',
-        title: "Escape Room",
+        title: "CTF [Escape Room]",
         desc: "Put on your Guy  Fawkes masks as we partner up with industry giants to bring to you a grand Capture The Flag contest where you'll have to out fight and out last all obstacles thrown at you and figure out the best way forward to walk away the survivor of this Escape Room!",
         rulebook:'https://drive.google.com/file/d/1yeAoVWApF9IflkUZ8d-f58CeI2K4fR3C/view?usp=sharing',
         register: 'https://bit.ly/CTF_AVR23'
@@ -424,7 +424,7 @@ let specialEventsNormal = [
     {
         wing: 'specialEventsNormal',
         icon: 'fa-solid fa-code fa-bounce ',
-        title: "InnovatriX",
+        title: "Hackathon [InnovatriX]",
         desc: "Open call to all the innovators, hackers, builders and champions of development as we bring out this rendition of a problem statement based Hackathon spread out over all three days to build and break and build again and at the end of it all, win it big!",
         rulebook:'https://drive.google.com/file/d/1q3Hf6H5Fjd_QqUSn9wwgW3q7_RjRVV75/view?usp=sharing',
         register: 'https://bit.ly/InnovatriX_AVR23_FORM'
@@ -432,7 +432,7 @@ let specialEventsNormal = [
     {
         wing: 'specialEventsNormal',
         icon: 'fa-solid fa-globe fa-bounce ',
-        title: "TechTronix",
+        title: "Tech Expo [TechTronix]",
         desc: "Avenir is bringing to you an opportunity to showcase your prototype ready designs and innovations from any domain in this grand tech expo for not just college students but also school students as everyone battles it out to win big and thrive on the bleeding edge of technology",
         rulebook:'https://drive.google.com/file/d/1RJJ0qSCIlv0onLGq0T8MVSv1IlKbXqbz/view?usp=sharing',
         register: 'https://bit.ly/TechExpo_AVR23'
