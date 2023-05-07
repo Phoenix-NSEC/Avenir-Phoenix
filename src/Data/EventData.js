@@ -84,7 +84,7 @@ let all = [
         icon: 'fa-solid fa-microphone fa-bounce ',
         title: "Carpe Diem",
         desc: "For those that thrive in front of the mic and like the crowd at your fingertips - this iteration is a free for all fiesta where anything and everything is welcomed. from slam poetry to speeches to just jazzing it up if that's more your style!",
-        rulebook:'https://drive.google.com/file/d/1o5oayniWrRChR6MHCTvinIMmowxIsI2q/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1-pj_wREb6wkgWK0vwTTO1Wq-kmrmr0mO/view?usp=sharing',
         register: 'https://bit.ly/ELOQUENSE_AVR23_FORM'
     },
     {
@@ -348,7 +348,7 @@ let Eloquense = [
         icon: 'fa-solid fa-microphone fa-bounce ',
         title: "Carpe Diem",
         desc: "For those that thrive in front of the mic and like the crowd at your fingertips - this iteration is a free for all fiesta where anything and everything is welcomed. from slam poetry to speeches to just jazzing it up if that's more your style!",
-        rulebook:'https://drive.google.com/file/d/1o5oayniWrRChR6MHCTvinIMmowxIsI2q/view?usp=sharing',
+        rulebook:'https://drive.google.com/file/d/1-pj_wREb6wkgWK0vwTTO1Wq-kmrmr0mO/view?usp=sharing',
         register: 'https://bit.ly/ELOQUENSE_AVR23_FORM'
     },
     {
