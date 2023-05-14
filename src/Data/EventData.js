@@ -21,7 +21,7 @@ let all = [
         title: "Hackathon [InnovatriX]",
         desc: "Open call to all the innovators, hackers, builders and champions of development as we bring out this rendition of a problem statement based Hackathon spread out over all three days to build and break and build again and at the end of it all, win it big!",
         rulebook:'https://drive.google.com/file/d/1q3Hf6H5Fjd_QqUSn9wwgW3q7_RjRVV75/view?usp=sharing',
-        register: 'https://forms.gle/et8evyvdAkX3thvK7'
+        register: 'https://unstop.com/hackathons/innovatrix-the-grand-hackathon-avenir23-beyond-infinity-the-annual-techno-management-fest-netaji-subhash-engi-677891'
     },
     {
         wing: 'all',
