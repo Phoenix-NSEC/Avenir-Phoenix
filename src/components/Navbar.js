@@ -88,7 +88,7 @@ function Navbar() {
               About us
             </li>
           </NavLink>
-          {/* <NavLink to="patners">
+          <NavLink to="partners">
             <li
               className={
                 path === "/partners"
@@ -98,7 +98,7 @@ function Navbar() {
             >
               Partners
             </li>
-          </NavLink> */}
+          </NavLink>
           <NavLink to="teams">
             <li
               className={
