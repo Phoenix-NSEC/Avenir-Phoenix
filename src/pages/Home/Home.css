@@ -14,7 +14,10 @@
   opacity: 0.70;
 }
 
-
+.popup-modal
+{
+  border: 1px solid red;
+}
 .glitch {
     text-transform: uppercase;
     position: relative;
