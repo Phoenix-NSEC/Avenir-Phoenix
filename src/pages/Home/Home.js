@@ -49,17 +49,12 @@ function Home() {
     });
   };
 
-  const [show, setShow] = useState(false);
   useEffect(() => {
     startTimer();
-    setShow(true);
   }, []);
 
   return (
     <div className={`flex flex-col md:min-h-screen min-h-[100vh] sub-body`} style={{ backgroundImage: `url(${bgGif})`, backgroundSize: "cover" }}>
-      { show ? <div classaName = 'popup-modal' >
-        Hello this is modal div
-        </div> : null }
       <div className="kunal min-h-screen"></div>
       <div className="flex md:flex-row relative md:right-[50px] flex-col-reverse md:justify-around md:items-end items-center justify-center md:min-h-[75vh] min-h-[100vh] max-w-full md:w-50 z-10">
         <div className="flex flex-col justify-evenly relative md:left-[100px] md:top-[50px] lg:items-start items-center ">
