@@ -60,9 +60,9 @@ function Home() {
         <div className="flex flex-col justify-evenly relative md:left-[100px] md:top-[50px] lg:items-start items-center ">
           <div className="name pb-1 md:pl-5">
             <h1 className="glitch md:text-[150px] text-[90px] text-[#FF5757] z-10">
-              <span aria-hidden="true z-10">AVENIR'23</span>
-              AVENIR'23
-              <span aria-hidden="true z-10">AVENIR'23</span>
+              <span aria-hidden="true z-10">AVENIR'24</span>
+              AVENIR'24
+              <span aria-hidden="true z-10">AVENIR'24</span>
             </h1>
           </div>
           <div className="caption pb-5 md:pl-5 relative bottom-2">
